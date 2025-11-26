@@ -1,0 +1,92 @@
+---
+title: "Casos Clínicos"
+subtitle: "Análise de Transtornos da Impulsividade, Vontade e Tomada de Decisão"
+---
+::: {#sec-casos-clinicos}
+::: 
+
+
+# Introdução
+
+Este material apresenta casos clínicos cuidadosamente selecionados para ilustrar diferentes aspectos dos transtornos relacionados à impulsividade, vontade, intencionalidade e tomada de decisão. Cada caso é acompanhado de questões para discussão e análise crítica.
+
+::: {.callout-note}
+## Objetivo Pedagógico
+
+Ao analisar estes casos, você deverá ser capaz de:
+
+1. Identificar alterações na impulsividade, vontade e capacidade de decisão
+2. Correlacionar achados clínicos com substratos neurobiológicos
+3. Propor hipóteses diagnósticas e planos terapêuticos
+4. Refletir criticamente sobre questões filosóficas relacionadas à autonomia e livre arbítrio
+:::
+
+---
+
+# Caso 1: Transtorno do Jogo (Jogo Patológico)
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 2: Hipersexualidade e Impulsividade Sexual
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 3: Síndrome Apático-Abúlica (Hipobulia)
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 4: Síndrome Pós-Lobotomia
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 5: O Caso Phineas Gage - Lesão do Córtex Pré-frontal
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 6: Compulsão por Compras (Oniomania)
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 7: Cleptomania
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Caso 8: Tricotilomania e Transtornos de Controle de Impulsos
+
+[CONTEÚDO SERÁ DESENVOLVIDO]
+
+---
+
+# Referências dos Casos
+
+::: {#refs}
+:::
+
+---
+
+# Material Complementar
+
+## Questões para Reflexão Geral
+
+1. Como os casos apresentados desafiam nossa concepção de livre arbítrio?
+2. Que implicações médico-legais emergem dos transtornos de impulso e vontade?
+3. Como equilibrar responsabilidade individual e determinismo neurobiológico?
+4. Quais são os limites éticos do tratamento de alterações da vontade?
+
+## Leituras Recomendadas
+
+[Lista de leituras será adicionada]

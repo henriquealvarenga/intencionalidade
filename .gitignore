@@ -1,0 +1,38 @@
+# Quarto
+/.quarto/
+/_site/
+/.luarc.json
+
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+
+# VS Code / Positron
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*~
+*.swp
+*.swo
+.tmp/
+
+# Output files (não ignorar docs/ pois é necessário para GitHub Pages)
+# mas ignorar arquivos temporários dentro dela
+docs/.DS_Store
+
+**/*.quarto_ipynb

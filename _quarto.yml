@@ -1,0 +1,87 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
+  site-url: "https://henriquealvarenga.com"
+  site-path: "/intencionalidade"
+  favicon: favicon.ico
+  
+  navbar:
+    background: primary
+    left:
+      - text: "Início"
+        href: index.qmd
+      - text: "Casos Clínicos"
+        href: 04-casos_clinicos.qmd
+      - text: "Apêndices"
+        href: 05-sistemas-dinamicos.qmd        
+    
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Início"
+        contents:
+          - text: "Prefácio"
+            href: 00-prefacio.qmd        
+          - text: "Introdução"
+            href: index.qmd        
+          - text: "Livre-Arbítrio"
+            href: 01-free-will.qmd
+          - text: "Graus de Liberdade"
+            href: 02-graus-de-liberdade.qmd
+          - text: "Conclusão"
+            href: 03-conclusao.qmd
+      - section: "Casos"
+        contents:
+          - text: "Lobotmia"
+            href: 4.1-lobotomia.qmd
+          - text: "Agressividade"
+            href: 4.2-agressividade.qmd
+          - text: "Pedofilia"
+            href: 4.3-pedofilia.qmd    
+          - text: "Hipersexualidade"
+            href: 4.4-hipersexualidade.qmd       
+          - text: "Cleptomania"
+            href: 4.5-cleptomania.qmd 
+          - text: "TOC"
+            href: 4.6-toc.qmd   
+          - text: "Tricotilomania"
+            href: 4.7-tricotilomania.qmd                 
+      - section: "Apêndices"
+        contents:
+          - text: "Sistemas Dinâmicos"
+            href: 05-sistemas-dinamicos.qmd          
+          - text: "Vontade nas Tradições Religiosas"
+            href: 06-apendice-vontade-religioes.qmd
+          - text: "Glossário"
+            href: 07-glossario.qmd
+
+  page-footer:
+    left: "© 2025 Henrique Alvarenga"
+    right: 
+      - icon: github
+        href: https://henriquealvarenga.com/intencionalidade
+
+format:
+  html:
+    theme: 
+      light: [cosmo, custom.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: true
+    number-depth: 3
+    code-fold: true
+    code-tools: true
+    smooth-scroll: true
+    link-external-newwindow: true
+    
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

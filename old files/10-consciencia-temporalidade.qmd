@@ -1,0 +1,249 @@
+---
+title: "Neurobiologia da Volição: Consciência e Temporalidade"
+subtitle: "Processos Inconscientes e a Construção da Agência"
+---
+::: {#sec-neurobiologia}
+:::
+
+# Introdução 
+
+Quando você decide levantar seu braço, o que exatamente acontece? A sequência intuitiva parece óbvia: primeiro você *decide conscientemente* mover o braço, depois seu cérebro envia sinais aos músculos, e finalmente o braço se move.  
+ 
+> Consciência → Intenção → Ação. 
+
+Esta é a experiência fenomenológica que todos temos, a narrativa que construímos sobre nossa própria agência.
+
+Mas e se essa narrativa estiver invertida? E se a ação já tiver sido iniciada pelo cérebro *antes* de você ter consciência de querer agir? E se a experiência de "decidir" for uma construção retrospectiva, uma história que seu cérebro conta a você sobre processos que já ocorreram?
+
+Esta possibilidade perturbadora foi sugerida por uma série de experimentos controversos nas décadas de 1980, e continua sendo uma questão controversa. Neste capítulo, examinaremos essas evidências criticamente - não para concluir que livre arbítrio é ilusão, mas para entender a natureza complexa e distribuída dos processos que experimentamos como "escolha consciente".
+
+# 1. Os Experimentos de Libet: Fama e Limitações
+
+## 1.1 O Experimento Original
+
+Em 1983, o neurocientista Benjamin Libet conduziu uma série de experimentos que se tornariam alguns dos mais citados (e mal interpretados) da neurociência [@libet1983time]. O design experimental era elegantemente simples:
+
+Libet pediu aos participantes que realizassem um movimento simples de pulso em um momento de sua escolha, enquanto observavam um relógio de alta precisão (um ponto girando em um círculo). Os participantes deviam notar o momento exato em que sentiam a "vontade" ou "urgência" de agir - o momento da consciência da intenção, designado como "W" (*willingness*).
+
+Simultaneamente, Libet registrava:
+
+1. **O potencial de prontidão (Readiness Potential, RP)**: Um sinal eletroencefalográfico que precede movimentos voluntários, refletindo preparação motora cortical
+2. **O início real do movimento**: Medido por eletromiografia dos músculos do pulso
+3. **O momento da consciência da intenção (W)**: Reportado pelo participante
+
+Os resultados foram surpreendentes e geraram décadas de debate: o potencial de prontidão iniciava aproximadamente **550 milissegundos antes** do movimento, mas a consciência da intenção de agir ocorria apenas cerca de **200 milissegundos antes** do movimento.
+
+Em outras palavras: o cérebro já havia iniciado o processo de preparação da ação cerca de **350 milissegundos antes** que o participante tivesse consciência de querer agir.
+
+## 1.2 A Interpretação Polêmica
+
+Libet e muitos subsequentes interpretaram esses achados como evidência de que o livre arbítrio consciente é, em algum sentido importante, uma ilusão [@wegner2002illusion]. A ideia é devastadora em sua simplicidade: se o cérebro já iniciou a ação antes de você ter consciência de decidir, então o que você experimenta como "sua decisão" é, na verdade, uma narração a posteriori de processos que já foram colocados em movimento. Você não decide e então age. O que libet propôs é que primeiro agimos, e então nossa consciência "descobre" que decidimos agir.
+
+Esta interpretação levou a manchetes sensacionalistas ("Cientistas provam que livre arbítrio não existe!") [@purtill2023] e a debates filosóficos acalorados. Mas será que essa interpretação se sustenta ao escrutínio mais cuidadoso? 
+
+## 1.3 Problemas Metodológicos Sérios
+
+Nas décadas desde a publicação original, numerosas críticas metodológicas e conceituais emergiram [@mele2009effective]:
+
+### 1.3.1 A Precisão do "Momento W"
+
+**Problema central**: Pedir aos participantes que identifiquem o momento preciso em que tiveram consciência de uma intenção é uma tarefa de dificuldade duvidosa. Como você identifica o momento exato de um processo mental? A consciência não tem timestamps precisos. Diferentes participantes podem interpretar a instrução diferentemente - alguns reportando o primeiro vislumbre de intenção, outros esperando por uma intenção mais "completa".
+
+Estudos subsequentes mostraram que pequenas mudanças nas instruções podem alterar significativamente o momento W reportado, sugerindo que a medida é instável e talvez não esteja capturando um momento psicológico real bem-definido.
+
+### 1.3.2 A Artificialidade da Tarefa
+
+**Problema**: Movimentos de dedo sem propósito, realizados em laboratório enquanto se observa um relógio, são profundamente artificiais. A maioria das nossas ações no mundo real são:
+
+- Direcionadas a objetivos significativos
+- Contextualmente situadas
+- Parte de sequências complexas de comportamento
+- Socialmente mediadas
+
+Não está claro se os achados de Libet generalizam para o tipo de ação intencional complexa que caracteriza a vida humana. Decidir erguer um dedo aleatoriamente não é analogamente relevante a decidir aceitar uma proposta de emprego, confrontar um amigo sobre algo difícil, ou resistir a um impulso de raiva.
+
+### 1.3.3 O Que é o Potencial de Prontidão?
+
+**Problema crucial**: Libet assumiu que o potencial de prontidão (RP) representa a "decisão" inconsciente de agir. Mas o que se o RP não for uma decisão, mas apenas preparação motora inespecífica ou flutuação estocástica na atividade neural?
+
+Em 2012, Schurger e colegas propuseram uma reinterpretação radical [@schurger2012accumulator]: o RP pode ser simplesmente "ruído" neural - flutuações aleatórias na atividade cerebral que, quando ultrapassam certo limiar, disparam um movimento. Nesta visão, o RP não é uma "decisão inconsciente determinística", mas parte de um processo estocástico (probabilístico) de acúmulo de atividade neural.
+
+Esta reinterpretação é compatível com a noção de cérebro como sistema caótico, onde pequenas flutuações aleatórias podem ser amplificadas para gerar comportamento, sem que haja uma cadeia causal determinística clara do tipo "evento X causou deterministicamente evento Y".
+
+### 1.3.4 O "Livre Não-Agir" de Libet
+
+Curiosamente, o próprio Libet reconheceu limitações de sua interpretação. Ele sugeriu que, embora a iniciação da ação possa ser inconsciente, ainda haveria espaço para livre arbítrio na capacidade de **vetar conscientemente** uma ação já iniciada - o que chamou de "livre não-agir" (*free won't*) [@libet1983time].
+
+Em outras palavras: talvez não iniciemos conscientemente nossas ações, mas podemos conscientemente pará-las. Esta ideia é intrigante mas abre mais questões: o veto consciente seria ele mesmo precedido por processos inconscientes? Em que sentido seria "livre"?
+
+## 1.4 Estudos Subsequentes: O Problema se Aprofunda
+
+Pesquisas mais recentes utilizando neuroimagem funcional (fMRI) e técnicas de decodificação de padrões neurais ampliaram os achados de Libet de formas preocupantes.
+
+### 1.4.1 Soon et al. (2008): Prevendo Decisões com Segundos de Antecedência
+
+Em um estudo influente, Soon e colegas demonstraram que é possível prever escolhas simples (pressionar um botão com a mão esquerda ou direita) **até 7-10 segundos antes** que os participantes reportem consciência da decisão, baseando-se na atividade em regiões pré-frontais e parietais [@soon2008unconscious].
+
+Dez segundos é uma eternidade em termos de processamento neural. Se atividade cerebral 10 segundos antes pode prever minha "decisão", em que sentido ela é minha decisão consciente?
+
+**Mas atenção**: A precisão preditiva desses estudos é modesta (tipicamente 55-60%, apenas ligeiramente acima do acaso de 50%). Isso sugere que há outros fatores - possivelmente incluindo processos conscientes ou genuína indeterminação - que também influenciam a decisão final.
+
+### 1.4.2 Limites da Previsibilidade
+
+É crucial notar: mesmo com as técnicas mais avançadas, não conseguimos prever decisões perfeitamente. Há sempre variabilidade, sempre espaço para que o sistema vá em direção diferente da prevista. Isso é consistente com a noção de cérebro como sistema caótico - onde condições iniciais (estado neural em momento específico) influenciam mas não determinam completamente o resultado.
+
+# 2. Cérebro como Sistema Caótico: Uma Perspectiva Alternativa
+
+## 2.1 O Que São Sistemas Caóticos?
+
+Para entender adequadamente as implicações (e limitações) dos experimentos de Libet e similares, precisamos compreender uma ideia fundamental da ciência contemporânea: **sistemas caóticos**.
+
+Sistemas caóticos têm características específicas:
+
+1. **Não-linearidade**: Pequenas mudanças nas condições iniciais podem gerar mudanças enormes nos resultados (o famoso "efeito borboleta")
+2. **Sensibilidade a condições iniciais**: Dois estados quase idênticos podem divergir radicalmente ao longo do tempo
+3. **Imprevisibilidade prática**: Mesmo que o sistema seja governado por leis determinísticas, é impossível prever seu comportamento a longo prazo porque nunca podemos medir condições iniciais com precisão infinita
+4. **Padrões complexos**: O comportamento parece aleatório mas contém estrutura e padrões quando analisado adequadamente
+
+**Exemplos clássicos**: Clima meteorológico, turbulência em fluidos, dinâmica populacional em ecologia, e - relevante para nós - **atividade neural em cérebros**.
+
+## 2.2 O Cérebro como Sistema Caótico
+
+Evidências crescentes sugerem que o cérebro opera em regimes caóticos ou próximos ao caos [@kahneman2011thinking]. Isso tem implicações profundas:
+
+**Implicação 1**: Mesmo que o cérebro seja um sistema físico governado por leis naturais, **comportamento não é predeterminado**. Pequenas flutuações (ruído neural, variações neuroquímicas minúsculas, inputs sensoriais sutis) podem ser amplificadas para gerar trajetórias comportamentais radicalmente diferentes.
+
+**Implicação 2**: **Indeterminação não é o mesmo que aleatoriedade**. Sistemas caóticos não são meramente aleatórios - eles têm estrutura, padrões, atratores. O comportamento é influenciado por estados anteriores mas não completamente determinado por eles. Há genuína abertura no sistema.
+
+**Implicação 3**: **Processos inconscientes não equivalem a processos determinados**. O fato de que preparação neural precede consciência (achados de Libet) não implica que o resultado estava predeterminado desde o início. Múltiplas trajetórias podem estar disponíveis mesmo em níveis inconscientes.
+
+## 2.3 Reinterpretando Libet à Luz de Sistemas Caóticos
+
+Se o cérebro é um sistema caótico, os achados de Libet não demonstram determinismo - demonstram apenas que:
+
+1. **Consciência não é instantânea**: Leva tempo para que processos neurais gerem experiência consciente
+2. **Agência é distribuída**: O "eu" que age não é um homúnculo unitário, mas um sistema distribuído de processos neurais interagindo
+3. **Preparação precede experiência**: Mas preparação em sistema caótico não predetermina resultado final
+
+Analogia útil: Imagine uma bola rolando em uma paisagem montanhosa complexa. A posição inicial da bola (estado neural) influencia fortemente onde ela vai, mas pequenas perturbações podem fazê-la cair em vales completamente diferentes. O "potencial de prontidão" seria como a bola começando a rolar - mas ainda há múltiplos vales possíveis, múltiplas trajetórias, até que a ação seja finalmente executada.
+
+# 3. A Experiência de Agência: Construída, Mas Não Ilusória
+
+## 3.1 Sense of Agency vs. Sense of Ownership
+
+Pesquisas distinguem entre dois aspectos da experiência consciente de ação [@gallagher2000philosophical]:
+
+**Sense of Ownership**: A experiência de que meu corpo e seus movimentos são meus  
+*("Isto é meu braço se movendo")*
+
+**Sense of Agency**: A experiência de que eu sou o autor de uma ação  
+*("Eu fiz meu braço se mover")*
+
+Em condições normais, ambos estão presentes e alinhados. Mas em certas condições patológicas, podem dissociar-se de formas reveladoras.
+
+## 3.2 Síndrome da Mão Alienígena
+
+Na síndrome da mão alienígena (*alien hand syndrome*), o paciente experimenta ownership (reconhece a mão como sua) mas não agency (sente que a mão age por conta própria, fora de seu controle) [@marchetti1998alien].
+
+**Exemplo clínico**: Paciente com lesão no corpo caloso relata que sua mão esquerda "tem vontade própria" - desabotoa camisa que a mão direita acabou de abotoar, pega objetos que o paciente não quer pegar, até mesmo tenta estrangular o próprio paciente em casos extremos.
+
+Esta dissociação é filosoficamente fascinante: o paciente não perdeu a capacidade motora (a mão se move habilmente), nem perdeu ownership (reconhece como sua mão). Perdeu especificamente a integração dessa atividade motora com sistema de monitoramento interno que gera sense of agency.
+
+**Implicação**: Sense of agency não é simples leitura direta de "o que eu fiz". É uma construção - uma inferência que o cérebro faz baseado em comparações entre predições motoras e feedback sensorial. Esta construção pode estar errada (como na mão alienígena) ou pode ser manipulada (como veremos a seguir).
+
+## 3.3 Manufaturando a Sensação de Vontade
+
+### 3.3.1 Estimulação do Córtex Parietal Posterior
+
+Em um estudo elegante, Desmurget e colegas estimularam eletricamente o córtex parietal posterior de pacientes durante neurocirurgia [@desmurget2009movement]. Os resultados foram notáveis:
+
+- **Estimulação de baixa intensidade**: Pacientes reportavam uma "vontade" ou "urgência" de mover determinada parte do corpo (braço, perna, lábios), mas não se moviam
+- **Estimulação de alta intensidade**: Pacientes reportavam ter executado o movimento - mesmo quando não haviam se movido de fato
+
+Isso demonstra que a experiência subjetiva de "vontade" e "ação" pode ser gerada artificialmente pela ativação de circuitos neurais específicos, independente da execução real de movimentos. A experiência fenomenológica de agência é, literalmente, uma construção neural que pode ser manipulada.
+
+### 3.3.2 Modelos Computacionais de Agência
+
+O **modelo comparador** sugere que o sense of agency emerge da comparação entre predições motoras (cópia eferente - o cérebro "prevê" as consequências sensoriais da ação que está prestes a executar) e feedback sensorial real [@blakemore2002abnormalities].
+
+**Quando há correspondência** entre o previsto e o observado → experimentamos agency  
+**Quando há discrepância** → atribuímos a ação a fatores externos
+
+Este modelo explica vários fenômenos intrigantes:
+
+- **Por que não podemos fazer cócegas em nós mesmos**: Nossa própria ação é perfeitamente predita pelo sistema motor, então o feedback sensorial é "cancelado" - não há surpresa, não há sensação intensa
+- **Por que atrasos entre ação e efeito reduzem sense of agency**: Se apertar um botão e há atraso de 1 segundo antes de algo acontecer, sinto menos que "eu causei" aquilo
+- **Experimentos com interfaces virtuais**: Introduzir discrepâncias pequenas entre movimento real e movimento visual (ex: mover mouse mas cursor se mover com leve rotação) gradualmente reduz sense of agency
+
+## 3.4 Esquizofrenia: Quando as Fronteiras do Eu Se Dissolvem
+
+Talvez o exemplo mais clinicamente significativo de perturbação na agência ocorra na esquizofrenia, particularmente nos sintomas de primeira ordem de Schneider [@frith2005explaining]:
+
+**Inserção de pensamento**: Pensamentos que o paciente experimenta como não sendo seus, mas inseridos por agente externo  
+*("A CIA colocou pensamentos na minha cabeça")*
+
+**Roubo de pensamento**: Experiência de que pensamentos são removidos da mente  
+*("Meus pensamentos foram roubados pelo demônio")*
+
+**Transmissão de pensamento**: Crença de que pensamentos são acessíveis a outros, mesmo sem comunicação  
+*("Todos podem ouvir meus pensamentos")*
+
+**Delírios de controle**: Ações experimentadas como controladas por agentes externos  
+*("Não fui eu que movi meu braço, foram os alienígenas que me controlaram")*
+
+### 3.4.1 Modelo Neurocognitivo
+
+Frith e colegas propuseram que na esquizofrenia há falha no sistema de monitoramento interno que normalmente distingue ações auto-geradas de eventos externos [@frith2005explaining]. Especificamente:
+
+- Sistema motor gera cópia eferente (predição das consequências da ação)
+- Mas há falha na transmissão ou processamento dessa cópia eferente
+- Resultado: quando a ação ocorre, não há predição correspondente
+- O sistema interpreta erroneamente: "não havia predição, logo isso não foi auto-gerado, logo foi causado externamente"
+
+Experiências normalmente auto-geradas (pensamentos, ações) são erroneamente atribuídas a fontes externas, resultando em delírios de controle e inserção de pensamento.
+
+**Implicação filosófica importante**: O sense of agency não é uma leitura direta e infalível de "quem causou essa ação". É uma inferência, uma construção, que pode estar errada. Na esquizofrenia, está sistematicamente errada. Mas em cérebros saudáveis, geralmente está correta - reflete processos reais de controle motor e planejamento.
+
+# 4. Primeira Conclusão Parcial: Consciência Tardia, Mas Não Epifenomenal
+
+O que aprendemos até aqui?
+
+## 4.1 O Que os Experimentos Realmente Mostram
+
+1. **Consciência não é instantânea**: Processos neurais precedem experiência consciente em centenas de milissegundos (Libet) ou até segundos (Soon et al.)
+
+2. **Agência é construída**: A experiência de "eu decidi, eu agi" é uma inferência neural baseada em modelos comparadores, não uma leitura direta de processos causais
+
+3. **Agência pode ser perturbada**: Em condições patológicas (mão alienígena, esquizofrenia) ou experimentais (estimulação cerebral), a experiência de agência pode dissociar-se de controle motor real
+
+## 4.2 O Que os Experimentos NÃO Mostram
+
+1. **NÃO demonstram determinismo**: O fato de preparação neural preceder consciência não implica que resultado estava predeterminado. Em sistemas caóticos, processos inconscientes podem ser indeterminados
+
+2. **NÃO demonstram que consciência é epifenomenal**: O argumento seria: "se consciência vem depois, ela não pode causar nada". Mas isso assume que causalidade é linear e instantânea. Em sistemas complexos com loops de feedback, estados conscientes podem influenciar processamento subsequente, mesmo que um dado episódio consciente tenha chegado "tarde" para influenciar a ação específica sendo estudada
+
+3. **NÃO demonstram que sense of agency é sempre ilusório**: Apenas que é construído, inferido. Mas inferências podem estar corretas. O fato de que minha percepção visual é "construída" (não é uma janela direta para realidade) não implica que é ilusória - geralmente reflete características reais do mundo externo
+
+## 4.3 Uma Metáfora Útil: O Narrador Pós-Hoc?
+
+É tentador, à luz desses achados, comparar a consciência a um "narrador pós-hoc" - um jornalista que relata eventos já ocorridos, criando a ilusão de que estava no comando [@wegner2002illusion; @gazzaniga2011who].
+
+Mas esta metáfora, embora capturando algo importante, é enganosa se levada longe demais. Melhor seria pensar em consciência como parte de um **sistema de controle distribuído e hierárquico**:
+
+- Níveis mais baixos (tronco cerebral, gânglios da base, córtex motor) executam ações rapidamente
+- Níveis mais altos (córtex pré-frontal, sistemas conscientes) monitoram, avaliam, ajustam
+- O sistema aprende: ações que levaram a bons resultados são reforçadas; ações que levaram a maus resultados são inibidas futuramente
+
+Consciência pode chegar "tarde" para um movimento específico de dedo, mas chega a tempo para influenciar padrões de comportamento a médio e longo prazo. E é isso que realmente importa para agência significativa.
+
+## 4.4 Graus de Liberdade Preservados
+
+Crucialmente, nada nos achados de Libet ou similares sugere que perdemos graus de liberdade. O que vemos é:
+
+- **Flexibilidade mantida**: Participantes escolhem quando agir (não há estímulo externo forçando)
+- **Variabilidade**: Timings variam, escolhas (direita vs. esquerda) variam
+- **Capacidade de veto**: Participantes podem cancelar ações iniciadas
+
+Em cérebros saudáveis, operando como sistemas caóticos complexos, há múltiplas trajetórias disponíveis, sensibilidade a perturbações pequenas, genuína abertura. O fato de que consciência não é o "primeiro motor imóvel" não colapsa essa abertura.
+
+O próximo capítulo examinará o que acontece quando essa abertura colapsa - quando circuitos neurais específicos são danificados de forma que **vontade pode ser abolida completamente**.
