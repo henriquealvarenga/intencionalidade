@@ -14,9 +14,10 @@ website:
       - text: "Início"
         href: index.qmd
       - text: "Casos Clínicos"
-        href: 04-casos_clinicos.qmd
+        href: 5.0-casos_clinicos.qmd
       - text: "Apêndices"
-        href: 05-sistemas-dinamicos.qmd        
+        href: 10.0-apendices.qmd          
+
     
   sidebar:
     style: "docked"
@@ -25,39 +26,49 @@ website:
       - section: "Início"
         contents:
           - text: "Prefácio"
-            href: 00-prefacio.qmd        
+            href: 00-prefacio.qmd              
           - text: "Introdução"
-            href: index.qmd        
-          - text: "Livre-Arbítrio"
-            href: 01-free-will.qmd
-          - text: "Graus de Liberdade"
-            href: 02-graus-de-liberdade.qmd
+            href: 1.1-introducao.qmd
+          - text: "Vontade"
+            href: 1.2-vontade.qmd    
+          - text: "De Tomás de Aquino a Davidson"
+            href: 1.3-davidson.qmd                     
+          - text: "Intencionalidade"
+            href: 1.4-intencionalidade-pratica.qmd                     
+          - text: "Impulsividade"
+            href: 1.5-impulsividade.qmd
+          - text: "Graus de Liberdade"          
+            href: 1.6-graus-de-liberdade.qmd
+          - text: "Neuroquimica"          
+            href: 1.7-neuroquimica.qmd            
           - text: "Conclusão"
-            href: 03-conclusao.qmd
+            href: 1.8-conclusao.qmd
       - section: "Casos"
         contents:
+          - text: "Casos"
+            href: 5.0-casos_clinicos.qmd        
           - text: "Lobotmia"
-            href: 4.1-lobotomia.qmd
+            href: 5.1-lobotomia.qmd
           - text: "Agressividade"
-            href: 4.2-agressividade.qmd
+            href: 5.2-agressividade.qmd
           - text: "Pedofilia"
-            href: 4.3-pedofilia.qmd    
+            href: 5.3-pedofilia.qmd    
           - text: "Hipersexualidade"
-            href: 4.4-hipersexualidade.qmd       
+            href: 5.4-hipersexualidade.qmd       
           - text: "Cleptomania"
-            href: 4.5-cleptomania.qmd 
+            href: 5.5-cleptomania.qmd 
           - text: "TOC"
-            href: 4.6-toc.qmd   
+            href: 5.6-toc.qmd   
           - text: "Tricotilomania"
-            href: 4.7-tricotilomania.qmd                 
+            href: 5.7-tricotilomania.qmd                 
       - section: "Apêndices"
         contents:
           - text: "Sistemas Dinâmicos"
-            href: 05-sistemas-dinamicos.qmd          
+            href: 10.1-sistemas-dinamicos.qmd          
           - text: "Vontade nas Tradições Religiosas"
-            href: 06-apendice-vontade-religioes.qmd
+            href: 10.2-apendice-vontade-religioes.qmd
           - text: "Glossário"
-            href: 07-glossario.qmd
+            href: 10.3-glossario.qmd
 
   page-footer:
     left: "© 2025 Henrique Alvarenga"
@@ -79,6 +90,8 @@ format:
     code-tools: true
     smooth-scroll: true
     link-external-newwindow: true
+    mermaid:
+      theme: neutral
     
 execute:
   freeze: auto

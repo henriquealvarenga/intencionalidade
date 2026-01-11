@@ -1,0 +1,41 @@
+# A Vontade em Questão: De Tomás de Aquino a Davidson
+
+A concepção agostiniana de uma vontade dividida contra si mesma permaneceu como horizonte interpretativo dominante por séculos. Contudo, longe de constituir um consenso estável, essa herança foi objeto de intensas disputas, reformulações e, eventualmente, de uma crítica radical que chegou a questionar a própria existência da vontade como faculdade psicológica distinta. O percurso que vai da escolástica medieval à filosofia analítica contemporânea revela não apenas mudanças de vocabulário, mas transformações profundas no modo de conceber a relação entre razão, desejo e ação.
+
+## O Debate Medieval: Intelecto ou Vontade?
+
+A recepção medieval de Agostinho foi mediada pela redescoberta de Aristóteles, o que gerou uma tensão produtiva entre duas tradições. Tomás de Aquino, no século XIII, elaborou uma síntese influente na qual o intelecto mantém primazia sobre a vontade: a vontade é um "apetite racional" que necessariamente segue o que o intelecto apresenta como bem. Nessa perspectiva, o erro prático deriva sempre de alguma falha cognitiva — seja ignorância, seja uma apreensão inadequada das circunstâncias. A posição tomista preserva algo do intelectualismo socrático, ainda que em registro cristão.
+
+Contra essa visão, Duns Scotus e, mais tarde, Guilherme de Ockham, defenderam a primazia da vontade. Para Scotus, a vontade é uma potência autônoma capaz de autodeterminação: ela pode escolher contra o que o intelecto apresenta como melhor, e é precisamente essa capacidade que fundamenta a liberdade e a responsabilidade moral. A vontade não é mera executora dos ditames da razão, mas uma força independente que confere ao agente genuíno poder de escolha.
+
+Esse debate entre "intelectualistas" e "voluntaristas" não foi meramente acadêmico. Ele estruturou diferentes compreensões da natureza humana, do pecado e da graça, e deixou marcas duradouras na teologia e na filosofia moral subsequentes.
+
+## A Modernidade: Descartes, Hume, Kant
+
+O advento da filosofia moderna trouxe novas configurações para o problema. Descartes, nas *Meditações*, atribui o erro ao descompasso entre o intelecto finito e a vontade infinita: erramos quando a vontade se precipita a afirmar ou negar aquilo que o entendimento não apreendeu com clareza. A vontade cartesiana é livre em sentido radical — tão livre quanto a de Deus — mas essa liberdade mesma é fonte de vulnerabilidade ao erro.
+
+David Hume representa uma ruptura mais drástica. Em sua análise da ação, não há lugar para uma "vontade" como faculdade distinta: "A razão é, e deve ser apenas, escrava das paixões." O que chamamos de vontade não passa de uma impressão interna que acompanha certas ações, sem qualquer poder causal independente. O conflito aparente entre razão e paixão dissolve-se quando reconhecemos que a razão, por si só, é motivacionalmente inerte. Hume não resolve o problema da *akrasia* — ele o dissolve, eliminando o vocabulário que o tornava formulável.
+
+Kant restaura a dignidade da vontade, mas em registro inteiramente novo. A distinção entre *Wille* (vontade legisladora, fonte da lei moral) e *Willkür* (arbítrio, capacidade de escolha) permite pensar a autonomia sem recair no voluntarismo arbitrário. A vontade autônoma é aquela que se dá a própria lei segundo princípios racionais universalizáveis. O mal moral não resulta de fraqueza, mas da escolha de subordinar a lei moral ao amor-próprio — uma "perversão" (*Verkehrtheit*) das máximas que Kant considera radical, isto é, enraizada na própria natureza humana.
+
+## Schopenhauer e Nietzsche: A Vontade Desmascarada
+
+O século XIX assistiu a uma crítica ainda mais radical. Schopenhauer inverte a tradição: a vontade não é uma faculdade subordinada ao intelecto, mas o princípio metafísico fundamental — uma força cega, irracional e insaciável que constitui a essência de toda realidade. O intelecto, longe de governar a vontade, é seu mero instrumento. A consciência de si como agente racional é uma ilusão superficial sob a qual pulsa uma vontade impessoal e sem propósito. A *akrasia* deixa de ser um problema episódico para se tornar a condição normal: nunca controlamos verdadeiramente nossos impulsos porque o "eu" que pretende controlar já é expressão dessa mesma vontade.
+
+Nietzsche radicaliza a suspeita. Não existe "a" vontade como faculdade unitária — o que chamamos assim é apenas uma palavra que agrupa processos múltiplos e heterogêneos. "A vontade" é uma ficção gramatical, um sujeito fantasma que postulamos por trás da ação: "o povo acredita que saber é conhecer até o fim; mas o filósofo deve dizer a si mesmo: quando decomponho o processo expresso na sentença 'eu penso', obtenho uma série de asserções temerárias." A própria unidade do eu é questionada, e com ela a possibilidade de uma teoria coerente da vontade.
+
+## A Reformulação Analítica: Davidson e o Problema Reaberto
+
+É nesse cenário de suspeita que a filosofia analítica do século XX retoma o problema — mas em registro inteiramente diverso. Donald Davidson, em seu artigo de 1970 "How is Weakness of the Will Possible?", não pergunta pela natureza metafísica da vontade, mas pela possibilidade lógica da ação irracional. Se um agente julga que seria melhor fazer A, como pode intencionalmente fazer B? Não haveria aí uma contradição?
+
+A estratégia de Davidson é mostrar que não há contradição quando distinguimos juízos *prima facie* (condicionais, relativos a certas considerações) de juízos *sans phrase* (incondicionais, "tudo considerado"). O agente pode julgar que, tudo considerado, A seria melhor, e ainda assim formar a intenção de fazer B. A fraqueza de vontade consiste precisamente em agir contra seu próprio melhor juízo incondicional — algo irracional, mas não logicamente impossível.
+
+Com Davidson, o problema da *akrasia* deixa de ser uma questão sobre faculdades mentais ou forças metafísicas para se tornar um problema sobre a estrutura das razões e a racionalidade da ação. A vontade não precisa existir como substância ou faculdade especial; o que existe são juízos, intenções e ações, e a questão é como esses elementos se articulam.
+
+Mas mostrar que a fraqueza de vontade é *possível* não é ainda explicar como ela *funciona*. É precisamente essa lacuna que abre espaço para o trabalho de Michael Bratman.
+
+## Considerações Finais
+
+O percurso de Tomás de Aquino a Davidson revela uma progressiva transformação: da vontade como faculdade real em disputa com o intelecto (medievais), passando pela vontade como princípio de autonomia ou como ilusão (modernos), até a dissolução do vocabulário substancial em favor de uma análise das razões para agir (analíticos). A cada etapa, algo se perde e algo se ganha. O que permanece constante é o fenômeno que resiste à explicação: agimos, por vezes, contra nosso próprio melhor juízo.
+
+Davidson restabeleceu a legitimidade filosófica do problema em termos que a filosofia contemporânea pode aceitar. Mas seu artigo, por elegante que seja, oferece mais um diagnóstico do que uma anatomia. É Bratman quem proporá, a partir de sua teoria das intenções como elementos de planos, uma arquitetura capaz de dar conta dos múltiplos modos pelos quais a ação pode falhar em seguir a deliberação.

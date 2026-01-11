@@ -4,8 +4,8 @@
 bibliography: references/references.bib
 
 # Estilos de Citação e Referências
-#csl: references/csl_styles/ABNT.csl  
-csl: references/csl_styles/vancouver.csl  
+csl: references/csl_styles/ABNT.csl  
+#csl: references/csl_styles/vancouver.csl  
 
 # Configurações de linguagem
 lang: pt-BR
