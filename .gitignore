@@ -5,6 +5,7 @@
 
 # Arquivos de referência grandes
 references/books/
+references/_PDFs/books/
 
 # R and RStudio
 .Rproj.user
