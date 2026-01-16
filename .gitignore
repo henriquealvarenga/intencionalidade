@@ -3,6 +3,9 @@
 /_site/
 /.luarc.json
 
+# Arquivos de referência grandes
+references/books/
+
 # R and RStudio
 .Rproj.user
 .Rhistory
