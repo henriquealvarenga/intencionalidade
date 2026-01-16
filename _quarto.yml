@@ -12,7 +12,7 @@ website:
     background: primary
     left:
       - text: "Início"
-        href: index.qmd
+        href: 1.0-index.qmd
       - text: "Casos Clínicos"
         href: 5.0-casos_clinicos.qmd
       - text: "Apêndices"
@@ -26,9 +26,11 @@ website:
       - section: "Início"
         contents:
           - text: "Prefácio"
-            href: 00-prefacio.qmd              
+            href: 00-prefacio.qmd  
           - text: "Introdução"
-            href: 1.1-introducao.qmd
+            href: 1.0-index.qmd             
+          - text: "Da liberdade à Coordenação"
+            href: 1.1-liberdade-coordenação.qmd
           - text: "Vontade"
             href: 1.2-vontade.qmd    
           - text: "De Tomás de Aquino a Davidson"
@@ -84,8 +86,7 @@ format:
     toc: true
     toc-depth: 3
     toc-location: right
-    number-sections: true
-    number-depth: 3
+    number-sections: false
     code-fold: true
     code-tools: true
     smooth-scroll: true

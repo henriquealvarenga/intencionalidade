@@ -13,7 +13,7 @@ Este projeto é um material educacional em neuropsiquiatria que explora conceito
 intencionalidade/
 ├── _quarto.yml              # Configuração principal do Quarto
 ├── _metadata.yml            # Metadados e configurações de bibliografia
-├── index.qmd                # Página principal
+├── 1.0-index.qmd                # Página principal
 ├── 00-prefacio.qmd          # Prefácio
 ├── 01-free-will.qmd         # Livre arbítrio
 ├── 02-graus-de-liberdade.qmd    # Graus de liberdade
