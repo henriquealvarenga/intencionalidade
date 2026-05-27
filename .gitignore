@@ -1,0 +1,64 @@
+# Quarto
+/.quarto/
+/_site/
+/.luarc.json
+**/*_cache/
+**/*_files/
+**/*.quarto_ipynb
+
+# Claude Code / Cowork
+.claude/
+
+# Arquivos de referência grandes
+references/books/
+references/_PDFs/books/
+
+# PDFs de referência de terceiros (copyright) — não versionar.
+# Mantém a pasta references/_PDFs/ mas ignora todos os .pdf dentro dela.
+# Exceção: PDF_version/Intencionalidade.pdf é o livro do autor, fica versionado.
+references/_PDFs/**/*.pdf
+
+# Backups locais do .git (criados manualmente ao reescrever histórico).
+# Nunca versionar — senão o histórico antigo entra no histórico novo.
+.git.backup-*
+
+# Arquivos antigos arquivados localmente (não vão pro site nem pro repo).
+# Permanecem no disco do autor como referência pessoal.
+old files/
+
+# R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+
+# VS Code / Positron
+.vscode/
+*.code-workspace
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*~
+*.swp
+*.swo
+.tmp/
+
+# Output do Quarto: publicado pelo GitHub Actions (deploy nativo do Pages),
+# então a pasta de output local NÃO vai mais para o repositório.
+# Observação: como este projeto NÃO tem código executável ({r}/{python}),
+# nenhum _freeze/ é gerado. Em projetos com código executável e estratégia A,
+# _freeze/ DEVE ser versionado de propósito (não adicione _freeze/ aqui).
+/docs/
+
+**/*.quarto_ipynb

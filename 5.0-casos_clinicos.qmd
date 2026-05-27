@@ -1,0 +1,45 @@
+---
+title: "Casos Clínicos"
+subtitle: "Análise de Transtornos da Impulsividade, Vontade e Tomada de Decisão"
+---
+
+::: {#sec-casos-clinicos}
+:::
+
+Este material apresenta casos clínicos cuidadosamente selecionados para ilustrar diferentes aspectos dos transtornos relacionados à impulsividade, vontade, intencionalidade e tomada de decisão. Cada caso é acompanhado de questões para discussão e análise crítica.
+
+::: {.callout-note}
+## Objetivo Pedagógico
+
+Ao analisar estes casos, você deverá ser capaz de:
+
+1. Identificar alterações na impulsividade, vontade e capacidade de decisão
+2. Correlacionar achados clínicos com substratos neurobiológicos
+3. Propor hipóteses diagnósticas e planos terapêuticos
+4. Refletir criticamente sobre questões filosóficas relacionadas à autonomia e livre arbítrio
+:::
+
+## Casos disponíveis
+
+<ul class="sumario">
+  <li><span class="num">01.</span><a href="5.1-lobotomia.qmd">Lobotomia</a></li>
+  <li><span class="num">02.</span><a href="5.2-agressividade.qmd">Agressividade</a></li>
+  <li><span class="num">03.</span><a href="5.3-pedofilia.qmd">Pedofilia</a></li>
+  <li><span class="num">04.</span><a href="5.4-hipersexualidade.qmd">Hipersexualidade</a></li>
+  <li><span class="num">05.</span><a href="5.5-cleptomania.qmd">Cleptomania</a></li>
+  <li><span class="num">06.</span><a href="5.6-toc.qmd">TOC</a></li>
+  <li><span class="num">07.</span><a href="5.7-tricotilomania.qmd">Tricotilomania</a></li>
+  <li><span class="num">08.</span><a href="5.8-phineas-gage.qmd">Phineas Gage</a></li>
+  <li><span class="num">09.</span><a href="5.9-charles-whitman.qmd">Charles Whitman</a></li>
+  <li><span class="num">10.</span><a href="5.10-mao-alienigena.qmd">Síndrome da Mão Alienígena</a></li>
+  <li><span class="num">11.</span><a href="5.11-sonambulismo-homicida.qmd">Kenneth Parks (Sonambulismo Homicida)</a></li>
+  <li><span class="num">12.</span><a href="5.12-paciente-sm-amigdala.qmd">Paciente SM (Lesão Bilateral da Amígdala)</a></li>
+  <li><span class="num">13.</span><a href="5.13-evr-marcador-somatico.qmd">EVR / Elliott (Marcador Somático)</a></li>
+</ul>
+
+## Questões para reflexão geral
+
+1. Como os casos apresentados desafiam nossa concepção de livre arbítrio?
+2. Que implicações médico-legais emergem dos transtornos de impulso e vontade?
+3. Como equilibrar responsabilidade individual e determinismo neurobiológico?
+4. Quais são os limites éticos do tratamento de alterações da vontade?

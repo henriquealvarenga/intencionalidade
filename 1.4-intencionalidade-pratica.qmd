@@ -1,0 +1,128 @@
+# Intencionalidade Prática e Planejamento
+
+A filosofia da ação investiga as estruturas que tornam possível o agir humano, a ação intencional, aquela que fazemos por razões e pela qual podemos ser responsabilizados. Uma questão central nesse campo é como organizamos nossa conduta ao longo do tempo. Não somos criaturas que apenas reagem ao imediato; formamos planos, assumimos compromissos, projetamos ações para o futuro. Mas essa capacidade é frágil. Às vezes falhamos em manter o curso que nós mesmos traçamos, agindo contra nossos próprios juízos e abandonando intenções diante de tentações que sabemos passageiras. Compreender essa fragilidade — e distinguir suas diferentes formas — exige uma análise cuidadosa do que são intenções, como funcionam, e por que às vezes falham em cumprir seu papel. É precisamente isso que a obra de Michael Bratman oferece.
+
+## Michael Bratman e a Arquitetura do Agir
+
+Michael Bratman é professor de filosofia na Universidade de Stanford e uma das figuras centrais da filosofia da ação contemporânea. Seu trabalho oferece ferramentas conceituais indispensáveis para quem quer entender não apenas como agimos, mas como *planejamos* agir — e por que às vezes falhamos em executar aquilo que nós mesmos decidimos.
+
+A relevância de Bratman para o estudo da vontade e da impulsividade não é imediata, mas profunda. Ele não escreveu diretamente sobre transtornos do controle de impulsos ou sobre a neurobiologia da decisão. Seu trabalho é filosófico, preocupado com a estrutura lógica e normativa da ação intencional. No entanto, ao investigar o que significa *ter uma intenção* e como intenções organizam nossa conduta ao longo do tempo, Bratman revela a arquitetura que a impulsividade desestabiliza.
+
+Seu ponto de partida foi um problema clássico: a fraqueza da vontade. Como é possível que alguém aja deliberadamente contra aquilo que julga ser melhor? Esse paradoxo, que remonta a Aristóteles e atravessa Agostinho, ganhou em Bratman uma formulação técnica precisa e uma solução engenhosa. A partir dessa investigação inicial, ele desenvolveu uma teoria abrangente sobre o papel das intenções e dos planos na vida mental — teoria que se tornou referência obrigatória na filosofia da ação e que encontrou aplicações em áreas tão diversas quanto inteligência artificial, direito e psicologia moral.
+
+## O Problema: Como é Possível Agir Contra o Próprio Juízo?
+
+Em 1979, Bratman publicou o artigo "Practical Reasoning and Weakness of the Will" na revista *Noûs*, enfrentando diretamente o paradoxo da fraqueza da vontade [@bratman1979]. O problema pode ser formulado assim: se uma pessoa age deliberadamente e por razões, sua ação deveria refletir aquilo que ela considera melhor fazer. Mas na fraqueza da vontade, o agente faz precisamente o contrário — age contra seu próprio juízo sobre o que seria melhor, de forma livre e intencional. Como isso é possível sem contradição?
+
+Para ilustrar, Bratman apresenta o caso de Sam. É tarde da noite, Sam está diante de uma garrafa de vinho. Ele sabe que se beber terá dor de cabeça pela manhã e não estará descansado para um compromisso importante no dia seguinte. Sabe também que beber seria prazeroso e aliviaria temporariamente sua depressão. Pesando todas as considerações, Sam conclui que seria melhor abster-se. Ainda assim, focando sua atenção no prazer imediato, ele pega a taça e bebe.
+
+Quando um amigo o questiona, Sam não diz que mudou de opinião. Ele insiste: "Não penso que seja melhor beber. Penso que seria melhor abster-me. Ainda assim, estou bebendo." Sam não é impulsivo no sentido de agir sem pensar. Ele não foi compelido por um desejo irresistível. Agiu deliberadamente, por razões que reconhecia como insuficientes. Isso é fraqueza da vontade em sentido estrito.
+
+O desafio teórico é direto: se a ação intencional é conclusão de um raciocínio sobre o que seria melhor, como pode Sam concluir que abster-se é melhor e ainda assim beber?
+
+A solução de Bratman consiste em distinguir dois tipos de conclusão que o raciocínio prático pode produzir. De um lado, há o *juízo avaliativo* — a conclusão de que determinada opção seria melhor, tudo considerado. De outro, há a *conclusão prática* — o compromisso efetivo com uma ação, que Bratman formula como "vou fazer x". Essas duas conclusões não são idênticas. O juízo avaliativo tem a forma "seria melhor fazer y"; a conclusão prática tem a forma "vou fazer x". Normalmente coincidem, mas não necessariamente.
+
+Sam aceita o juízo de que seria melhor abster-se. Mas sua conclusão prática — aquilo que efetivamente o leva a agir — é "vou beber". Ele chega a essa conclusão raciocinando a partir de considerações parciais (o prazer, o alívio da depressão) que ele mesmo reconhece como insuficientes para justificar a ação quando confrontadas com o quadro completo. Há raciocínio, há deliberação, há razões — mas o raciocínio é defeituoso. Sam viola um princípio de racionalidade prática: não se deve inferir uma conclusão prática de premissas que se sabe serem sobrepostas por outras premissas que também se aceita.
+
+A fraqueza da vontade, nessa análise, não é impossível nem misteriosa. É uma forma específica de irracionalidade — não erro lógico bruto, mas violação de uma norma que governa a transição entre avaliações e ações. O agente raciocina, mas raciocina mal. Age por razões, mas por razões que ele mesmo reconhece como derrotadas.
+
+
+## A Teoria do Planejamento: Intenções como Elementos de Planos Parciais
+
+O artigo de 1979 tratava de um problema específico — a fraqueza da vontade. Mas ao resolvê-lo, Bratman percebeu que precisava de uma teoria mais ampla sobre o que são intenções e como elas funcionam na vida mental. Essa teoria foi desenvolvida no livro *Intention, Plans, and Practical Reason*, publicado em 1987, que se tornou uma das obras mais influentes da filosofia da ação contemporânea [@bratman1987; @bratman1999reimpressao].
+
+A tese central é que somos *agentes planejadores*. Nossa racionalidade prática não opera apenas no momento da ação, avaliando opções e escolhendo a melhor. Ela se estende no tempo: formamos intenções para o futuro, elaboramos planos, e esses planos estruturam nossa conduta subsequente. Isso pode parecer óbvio, mas suas implicações são profundas.
+
+**Intenções não são redutíveis a crenças e desejos**
+
+O modelo tradicional em filosofia da ação — o modelo **crença-desejo** — explica a ação como resultado de desejos (que fornecem fins) e crenças (que indicam meios). Se desejo café e acredito que há café na cozinha, vou à cozinha. Bratman argumenta que esse modelo é insuficiente. Precisamos de um terceiro estado mental irredutível: a **intenção**.
+
+
+
+A diferença aparece quando consideramos intenções voltadas para o futuro. Posso desejar visitar o Japão e acreditar que isso é possível, sem ter a intenção de fazê-lo. A intenção envolve um tipo de comprometimento que o mero desejo não possui. Quando formo a intenção de ir ao Japão no próximo ano, isso altera minha situação prática: começo a pesquisar passagens, ajusto compromissos, economizo dinheiro. O mero desejo não produz nada disso.
+
+
+**As propriedades distintivas das intenções**
+
+Bratman identifica características funcionais que distinguem intenções de outros estados mentais:
+
+*Condução da conduta*: Uma vez formada, a intenção tende a produzir a ação correspondente sem necessidade de nova deliberação. Se intenciono ir à reunião às três horas, quando chega o momento simplesmente vou — não preciso decidir novamente.
+
+*Estabilidade*: Intenções resistem à reconsideração. Não reavaliamos constantemente nossas intenções diante de cada consideração contrária que surge. Há uma inércia racional: a intenção persiste como *default*, a menos que razões suficientemente fortes a desestabilizem. Essa estabilidade não é rigidez absoluta, mas resistência proporcional ao peso do compromisso.
+
+*Estruturação da deliberação posterior*: Intenções funcionam como premissas fixas para raciocínios subsequentes. Se intenciono viajar amanhã, isso passa a condicionar outras decisões — o que fazer hoje à noite, o que colocar na mala, como reorganizar compromissos. A intenção delimita o espaço de deliberação, tornando certas questões irrelevantes e outras urgentes.
+
+**A parcialidade dos planos**
+
+Um aspecto crucial é que planos são tipicamente *parciais*. Posso intencionar escrever um livro sem ter decidido o título do terceiro capítulo. Posso planejar uma viagem sem saber ainda em qual hotel ficar. Essa incompletude não é falha — é característica essencial de agentes com recursos cognitivos limitados.
+
+Não podemos planejar tudo de uma vez. Formamos intenções gerais e preenchemos os detalhes conforme necessário, em resposta ao contexto e às oportunidades que surgem. O plano funciona como um esqueleto que será progressivamente completado. Essa estrutura permite que ajamos de forma coordenada ao longo do tempo sem a impossível exigência de antecipar cada contingência.
+
+**A hierarquia dos planos**
+
+Planos têm estrutura hierárquica. Intenções gerais geram subintenções mais específicas. A intenção de escrever um livro gera a intenção de escrever o primeiro capítulo, que gera a intenção de sentar para escrever hoje de manhã. Essa organização permite que a deliberação seja *local*: posso decidir como formular este parágrafo sem reabrir a questão de se devo escrever o livro.
+
+A hierarquia também explica como mantemos coerência em projetos de longo prazo. As intenções de nível superior constrangem as de nível inferior, garantindo que as ações pontuais sirvam aos objetivos mais amplos — desde que o sistema funcione bem.
+
+**Por que planejamos?**
+
+Bratman oferece uma justificativa pragmática para essa arquitetura. Somos agentes com limitações: tempo finito, informação incompleta, capacidade de processamento restrita. Não podemos deliberar sobre tudo a cada momento. Os planos resolvem esse problema ao permitir que decisões tomadas anteriormente guiem a conduta futura sem necessidade de reconsideração constante.
+
+Além disso, planos permitem coordenação — tanto intrapessoal (entre meu eu presente e meu eu futuro) quanto interpessoal (entre mim e outras pessoas). Se anuncio minha intenção de estar em determinado lugar às três horas, outros podem contar com isso e ajustar seus próprios planos. A estabilidade das intenções é condição para a confiança mútua que torna possível a vida social.
+
+
+## Implicações para Entender a Impulsividade
+
+Bratman não escreveu sobre impulsividade como categoria clínica ou psicológica. Mas sua teoria fornece um vocabulário preciso para descrever o que falha quando alguém age impulsivamente — e, igualmente importante, para distinguir diferentes tipos de falha.
+
+**Impulsividade como déficit de planejamento**
+
+Na arquitetura bratmaniana, agir bem ao longo do tempo requer formar intenções estáveis, organizá-las em planos hierárquicos e parciais, e deixar que esses planos guiem a conduta sem reconsideração excessiva. A impulsividade pode ser entendida como perturbação dessa arquitetura em diferentes pontos.
+
+Algumas pessoas falham em formar intenções de longo prazo — vivem no imediato, sem projetos que organizem sua conduta através do tempo. Outras formam intenções mas estas carecem de estabilidade adequada — são abandonadas diante de tentações ou distrações que não deveriam ter força suficiente para deslocá-las. Outras ainda mantêm intenções gerais mas não conseguem articulá-las em subplanos executáveis — sabem o que querem mas não traduzem isso em passos concretos.
+
+Cada uma dessas falhas produz algo que podemos chamar de impulsividade, mas são fenômenos distintos que podem requerer intervenções diferentes.
+
+**Fraqueza da vontade e impulsividade: distinção importante**
+
+A análise de Bratman permite distinguir fraqueza da vontade de impulsividade em sentido estrito, embora frequentemente se confundam.
+
+Na fraqueza da vontade, como no caso de Sam, há deliberação. O agente considera razões, forma um juízo sobre o que seria melhor, mas sua conclusão prática diverge desse juízo. Ele age por razões que reconhece como insuficientes, violando um princípio de racionalidade. Há raciocínio — defeituoso, mas presente.
+
+Na impulsividade propriamente dita, pode não haver deliberação alguma. O agente age antes de pesar razões, antes de formar um juízo sobre o melhor curso de ação. Não é que ele julgue uma coisa e faça outra; é que ele faz sem julgar. A ação curto-circuita o processo deliberativo em vez de divergir de seu resultado.
+
+Bratman mesmo nota essa distinção ao excluir do escopo da fraqueza da vontade o que Aristóteles chamava de *impetuosidade* — a conduta contrária ao melhor juízo que não é deliberada, que irrompe antes que o agente possa refletir. A ação impulsiva nesse sentido não satisfaz as condições para ser fraqueza da vontade em sentido estrito, porque não é ação "plena" (*full-blown action*) — não envolve a conclusão de um raciocínio prático.
+
+**A estabilidade como variável**
+
+Um aspecto especialmente útil da teoria é tratar a estabilidade das intenções não como propriedade binária, mas como variável. Intenções podem ser mais ou menos estáveis, mais ou menos resistentes à reconsideração. Isso abre espaço para pensar a impulsividade em termos de grau.
+
+Uma pessoa não é simplesmente capaz ou incapaz de manter intenções. Suas intenções podem ser suficientemente estáveis para certos contextos mas não para outros. Podem resistir a certas tentações mas ceder diante de outras. A questão clínica e prática torna-se então: o que modula essa estabilidade? Que fatores — emocionais, contextuais, neuroquímicos — tornam as intenções mais ou menos vulneráveis à desestabilização?
+
+**O problema da reconsideração**
+
+Bratman dedica atenção considerável à questão de *quando* é racional reconsiderar uma intenção prévia. Manter intenções de forma rígida demais é tão problemático quanto abandoná-las facilmente demais. O agente racional deve ser sensível a mudanças relevantes de circunstância sem ser instável diante de qualquer flutuação.
+
+Isso sugere que parte do que chamamos impulsividade pode envolver não a ausência de intenções, mas um limiar inadequado de reconsideração — o agente abandona planos diante de razões que não deveriam ser suficientes para tanto. A tentação não é irresistível; o sistema de manutenção de intenções é que está calibrado de forma disfuncional.
+
+
+## Desenvolvimentos Posteriores
+
+Após *Intention, Plans, and Practical Reason*, Bratman continuou desenvolvendo e refinando sua teoria ao longo das décadas seguintes. Dois conjuntos de trabalhos merecem menção.
+
+Em 1999, publicou *Faces of Intention: Selected Essays on Intention and Agency*, reunindo ensaios que aprofundam aspectos específicos da teoria [-@bratman1999]. Entre os temas tratados estão a relação entre intenção e ação intencional (que não são a mesma coisa — posso fazer algo intencionalmente sem ter formado previamente a intenção de fazê-lo), o problema da toxina de Kavka (um experimento mental que testa os limites da racionalidade de formar intenções), e a distinção entre efeitos pretendidos e efeitos meramente previstos de nossas ações.
+
+Mais recentemente, Bratman voltou sua atenção para a *agência compartilhada* — como grupos de pessoas podem agir juntos de forma genuinamente coletiva, e não apenas como agregados de ações individuais. Essa extensão da teoria do planejamento para o domínio social resultou no livro *Shared Agency: A Planning Theory of Acting Together* [-@bratman2014]. A ideia central é que a mesma estrutura de planos e intenções que organiza a agência individual pode, com as devidas modificações, explicar a coordenação entre agentes. Intenções compartilhadas funcionam como intenções individuais entrelaçadas que se referenciam mutuamente.
+
+Embora a agência compartilhada possa parecer distante do tema da impulsividade, há uma conexão relevante. A capacidade de coordenar ações com outros depende da mesma estabilidade de intenções que permite coordenar ações consigo mesmo ao longo do tempo. Quem não consegue manter compromissos consigo dificilmente conseguirá mantê-los com outros. A impulsividade, nesse sentido, não é apenas um problema individual — é também um problema social, uma falha na condição básica para a cooperação.
+
+## Considerações Finais
+
+A contribuição de Bratman para o estudo da vontade e da impulsividade é de natureza conceitual. Ele não oferece explicações causais nem intervenções terapêuticas. O que oferece é uma anatomia: uma descrição cuidadosa das estruturas que precisam estar em funcionamento para que ajamos de forma organizada ao longo do tempo.
+
+Essa anatomia revela que o autocontrole não é uma força unitária que se tem mais ou menos, mas uma arquitetura complexa com múltiplos pontos de possível falha. Podemos falhar em formar intenções, em mantê-las estáveis, em articulá-las em subplanos, em executar esses subplanos quando chega o momento, ou em resistir a razões insuficientes para reconsideração. Cada falha tem sua própria lógica.
+
+Para quem estuda impulsividade empiricamente — na clínica, na neurociência, na psicologia experimental — esse mapeamento conceitual não substitui a investigação dos mecanismos, mas pode orientá-la. A pergunta deixa de ser apenas "por que essa pessoa é impulsiva?" e passa a ser "qual aspecto específico da arquitetura do planejamento está comprometido, e em que circunstâncias?". Não apenas "por que essa pessoa é impulsiva?", mas "qual aspecto específico da arquitetura do planejamento está comprometido, e em que circunstâncias?".
+
+Bratman nos lembra que agir bem não é apenas questão de ter os desejos certos ou fazer os juízos corretos. É também questão de ter uma estrutura — de intenções, planos e compromissos — que traduza juízos em conduta sustentada ao longo do tempo. Quando essa estrutura falha, o resultado pode parecer irracional. A teoria do planejamento nos ajuda a ver que, mesmo na falha, há uma racionalidade — defeituosa, incompleta, mas ainda assim reconhecível como tentativa de agir por razões.
+

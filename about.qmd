@@ -1,0 +1,164 @@
+---
+title: "Créditos"
+subtitle: "Informações sobre o autor, metodologia e licença"
+toc: true
+---
+
+## Autor
+
+**Henrique Alvarenga da Silva**
+
+Médico psiquiatra. Professor de Psiquiatria do Curso de Medicina da Universidade Federal de São João del-Rei (UFSJ) e professor na AFYA Educacional. Especialista em Psiquiatria e Psicopatologia, com foco em metodologia de pesquisa e educação médica baseada em evidências. Mestre em Educação Médica.
+
+::: {.contact-links}
+[🌐 Site pessoal](https://www.henriquealvarenga.com){.contact-link}
+[📧 E-mail](mailto:henrique@ufsj.edu.br){.contact-link}
+[🆔 ORCID](https://orcid.org/0000-0001-9799-5240){.contact-link}
+[📚 GitHub](https://github.com/henriquealvarenga){.contact-link}
+:::
+
+::: {.about-section}
+## Metodologia e tecnologias
+
+Este recurso foi construído usando ferramentas de código aberto e ciência aberta:
+
+::: {.tech-stack}
+::: {.tech-item}
+#### Escrita & Estrutura
+**Quarto** — Sistema de publicação científica
+**Markdown** — Linguagem de marcação
+**BibTeX** — Gerenciamento bibliográfico
+:::
+
+::: {.tech-item}
+#### Desenvolvimento
+**Positron IDE** — Ambiente integrado
+**Git/GitHub** — Controle de versão
+**GitHub Actions** — Publicação automática
+:::
+
+::: {.tech-item}
+#### Pesquisa
+**PubMed** — Base bibliográfica
+**Zotero** — Gerenciamento de referências
+**DOI verification** — Validação de citações
+:::
+
+::: {.tech-item}
+#### Design
+**CSS moderno** — Interface responsiva
+**Tema editorial** — Tipografia serif/sans
+**Self-hosted fonts** — Playfair, Inter, JetBrains Mono
+:::
+:::
+
+### Inteligência artificial
+
+O desenvolvimento contou com auxílio de IA generativa:
+
+- **Claude** (Anthropic) — assistência na estruturação, código CSS, organização bibliográfica
+- **PubMed search automation** — busca sistemática de literatura recente
+
+::: {.callout-note}
+## Transparência sobre uso de IA
+
+A IA foi utilizada como ferramenta de apoio, não substituto do trabalho intelectual. Toda informação foi verificada, todas as referências conferidas individualmente, todos os DOIs validados. A responsabilidade pelo conteúdo final é integralmente do autor.
+:::
+:::
+
+::: {.about-section}
+## Repositório e colaboração
+
+O código-fonte está disponível publicamente:
+
+🔗 **Repositório:** [github.com/henriquealvarenga/intencionalidade](https://github.com/henriquealvarenga/intencionalidade)
+
+Contribuições são bem-vindas via *issues* ou *pull requests*, especialmente:
+
+- Correções bibliográficas
+- Sugestões de novos casos clínicos
+- Melhorias na interface
+- Apontamentos conceituais e revisões
+:::
+
+::: {.about-section}
+## Dados de publicação
+
+**ISBN:** em cadastramento
+:::
+
+::: {.about-section}
+## Licenciamento
+
+Este trabalho está licenciado sob **Creative Commons Atribuição-NãoComercial-CompartilhaIgual 4.0 Internacional (CC BY-NC-SA 4.0)**.
+
+**Você pode:**
+
+- **Compartilhar** — copiar e redistribuir o material
+- **Adaptar** — remixar, transformar e criar a partir do material
+
+**Sob as condições:**
+
+- **Atribuição** — dar crédito apropriado
+- **NãoComercial** — não usar para fins comerciais
+- **CompartilhaIgual** — distribuir contribuições sob a mesma licença
+
+🔗 [Texto completo da licença](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR)
+:::
+
+::: {.about-section}
+## Citação sugerida
+
+Selecione o estilo abaixo:
+
+::: {.panel-tabset}
+
+### ABNT (NBR 6023)
+
+SILVA, Henrique Alvarenga da. **Intencionalidade, vontade, impulsividade e livre arbítrio**: uma jornada entre neurociência, psiquiatria e filosofia. São João del Rei, MG: Ed. do Autor, 2026. E-book (HTML). Disponível em: <https://henriquealvarenga.com/intencionalidade/>. Acesso em: [data de acesso].
+
+### Vancouver
+
+Silva HA. Intencionalidade, vontade, impulsividade e livre arbítrio: uma jornada entre neurociência, psiquiatria e filosofia [livro eletrônico]. São João del Rei (MG): Ed. do Autor; 2026. Disponível em: <https://henriquealvarenga.com/intencionalidade/>.
+
+### APA (7ª ed.)
+
+Silva, H. A. da. (2026). *Intencionalidade, vontade, impulsividade e livre arbítrio: uma jornada entre neurociência, psiquiatria e filosofia* [E-book]. Ed. do Autor. <https://henriquealvarenga.com/intencionalidade/>
+
+### BibTeX
+
+```bibtex
+@book{silva2026intencionalidade,
+  author    = {Silva, Henrique Alvarenga da},
+  title     = {Intencionalidade, vontade, impulsividade e livre arbítrio: uma jornada entre neurociência, psiquiatria e filosofia},
+  year      = {2026},
+  publisher = {Ed. do Autor},
+  address   = {São João del Rei, MG},
+  url       = {https://henriquealvarenga.com/intencionalidade/},
+  note      = {Livro eletrônico (HTML)}
+}
+```
+
+:::
+
+:::
+
+::: {.about-section}
+## Agradecimentos
+
+Aos estudantes e residentes que, com suas perguntas sobre os limites da vontade e da responsabilidade no sofrimento psíquico, motivaram a escrita deste material.
+:::
+
+::: {.about-section}
+## Contato
+
+Dúvidas, sugestões ou correções:
+
+📧 [henrique@ufsj.edu.br](mailto:henrique@ufsj.edu.br)
+
+Ou via *issues* no repositório GitHub.
+
+---
+
+*Última atualização: Maio de 2026*
+:::

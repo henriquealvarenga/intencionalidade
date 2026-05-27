@@ -1,0 +1,116 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - fonts/
+
+website:
+  title: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
+  site-url: "https://henriquealvarenga.com"
+  site-path: "/intencionalidade"
+  favicon: favicon.ico
+  bread-crumbs: false
+
+  navbar:
+    background: primary
+    # Navbar minimalista (opção B): só título do site (vem de website.title).
+    # Os três links (Início/Casos/Apêndices) foram removidos — o sidebar
+    # já lista tudo. A busca aparece automaticamente quando habilitada no
+    # sidebar (sidebar.search abaixo), renderizada como ícone no navbar.
+
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - section: "Início"
+        contents:
+          - text: "Prefácio"
+            href: index.qmd
+          - text: "Introdução"
+            href: 1.0-introducao.qmd
+          - text: "Da liberdade à Coordenação"
+            href: 1.1-liberdade-coordenação.qmd
+          - text: "Vontade"
+            href: 1.2-vontade.qmd
+          - text: "De Tomás de Aquino a Davidson"
+            href: 1.3-davidson.qmd
+          - text: "Intencionalidade"
+            href: 1.4-intencionalidade-pratica.qmd
+          - text: "Impulsividade"
+            href: 1.5-impulsividade.qmd
+          - text: "Graus de Liberdade"
+            href: 1.6-graus-de-liberdade.qmd
+          - text: "Neuroquimica"
+            href: 1.7-neuroquimica.qmd
+          - text: "Conclusão"
+            href: 1.8-conclusao.qmd
+      - section: "Casos"
+        contents:
+          - text: "Casos"
+            href: 5.0-casos_clinicos.qmd
+          - text: "Lobotmia"
+            href: 5.1-lobotomia.qmd
+          - text: "Agressividade"
+            href: 5.2-agressividade.qmd
+          - text: "Pedofilia"
+            href: 5.3-pedofilia.qmd
+          - text: "Hipersexualidade"
+            href: 5.4-hipersexualidade.qmd
+          - text: "Cleptomania"
+            href: 5.5-cleptomania.qmd
+          - text: "TOC"
+            href: 5.6-toc.qmd
+          - text: "Tricotilomania"
+            href: 5.7-tricotilomania.qmd
+          - text: "Phineas Gage"
+            href: 5.8-phineas-gage.qmd
+          - text: "Charles Whitman"
+            href: 5.9-charles-whitman.qmd
+          - text: "Mão Alienígena"
+            href: 5.10-mao-alienigena.qmd
+          - text: "Kenneth Parks"
+            href: 5.11-sonambulismo-homicida.qmd
+          - text: "Paciente SM"
+            href: 5.12-paciente-sm-amigdala.qmd
+          - text: "EVR / Elliott"
+            href: 5.13-evr-marcador-somatico.qmd
+      - section: "Apêndices"
+        contents:
+          - text: "Sistemas Dinâmicos"
+            href: 10.1-sistemas-dinamicos.qmd
+          - text: "Vontade nas Tradições Religiosas"
+            href: 10.2-apendice-vontade-religioes.qmd
+          - text: "Glossário"
+            href: 10.3-glossario.qmd
+          - text: "Neuroquímica (versão detalhada)"
+            href: 10.4-apendice-neuroquimica-detalhada.qmd
+
+  page-footer:
+    left: "© 2026 Henrique Alvarenga"
+    center:
+      - text: "Créditos"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/henriquealvarenga/intencionalidade
+
+format:
+  html:
+    theme: theme-editorial.scss
+    css: styles.css
+    toc: true
+    toc-depth: 3
+    toc-location: right
+    number-sections: false
+    code-fold: true
+    code-tools: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    mermaid:
+      theme: neutral
+
+execute:
+  freeze: auto
+  echo: false
+  warning: false
+  message: false

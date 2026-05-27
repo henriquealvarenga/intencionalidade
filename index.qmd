@@ -1,0 +1,35 @@
+---
+pagetitle: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
+description: "Ensaio sobre a agência humana entre neurociência, psiquiatria e filosofia. Da vontade ao livre-arbítrio, dos planos de Bratman aos circuitos cerebrais."
+toc: false
+---
+
+::: {.hero}
+
+[Neurociência e Agência]{.eyebrow}
+
+# Intencionalidade, Vontade, Impulsividade e Livre Arbítrio {.hero-title}
+
+[Uma Jornada entre Neurociência, Psiquiatria e Filosofia]{.hero-subtitle}
+
+[Como compreender a agência humana sem reduzi-la a um fantasma metafísico nem dissolvê-la em mecanismos cegos? A pergunta tradicional — somos ou não determinados? — revela-se insuficiente. A experiência clínica e a reflexão filosófica mostram algo mais complexo: uma capacidade de agir que se estrutura, se mantém, se articula — e que pode falhar de modos diversos.]{.lede}
+
+:::
+
+## Prefácio
+
+Como agentes com tempo, atenção e recursos cognitivos limitados conseguem manter cursos de ação coerentes ao longo do tempo? É a esta pergunta que a teoria da intencionalidade prática de Michael Bratman procura responder. Para Bratman, **seres humanos são agentes planejadores**: formamos intenções que se estendem no tempo, organizamos planos hierárquicos, coordenamos o presente com compromissos futuros. Essa arquitetura é condição de possibilidade para qualquer forma complexa de agência. E é também o que se fragiliza em condições como a impulsividade, os transtornos do controle de impulsos, as alterações frontais, as perturbações obsessivo-compulsivas.
+
+A pergunta "somos livres?" precisa ser complementada por outra: como se estrutura a ação intencional? Essa segunda pergunta tem uma longa história — dos gregos a Agostinho, dos medievais aos modernos, de Davidson a Bratman — e cada etapa revela dimensões do problema que a formulação anterior deixava em aberto.
+
+O modo mais difundido de pensar a relação entre cérebro e ação se concentra na química: dopamina sustenta a motivação, serotonina modula a inibição, e desequilíbrios entre essas vias produzem patologias do impulso e da vontade. Essa observação tem uma consequência segura — mostra que sentimento, pensamento, personalidade e ação têm substrato físico e não decorrem de uma alma imaterial — e nada além disso. Não prova que esses estados sejam apenas química, que a vontade seja epifenômeno, que a intencionalidade seja ilusória, ou que a liberdade não exista. Saber que a química afeta a mente é o começo do problema, não o fim. As perguntas mais interessantes começam onde o reducionismo para: *como* o cérebro consegue ser simultaneamente estável e flexível, *como* uma ação coerente emerge entre milhares de trajetórias possíveis, *como* uma intenção se sustenta ao longo do tempo.
+
+Três conceitos respondem melhor a essas perguntas. A arquitetura do planejamento descrita por Bratman dá conta da continuidade da agência ao longo do tempo: intenções estabilizam-se, planos se hierarquizam, compromissos passados orientam decisões presentes. A metaestabilidade descrita por J.A. Scott Kelso — coalizões temporárias de circuitos que se formam, se mantêm e se dissolvem — descreve o regime dinâmico em que essa coerência é fisicamente possível. E o problema dos graus de liberdade, formulado por Bernstein para o controle motor, atravessa todos esses níveis: como, entre as inúmeras trajetórias possíveis, uma única se torna a ação que de fato acontece? Reunidos, esses três conceitos reformulam a pergunta sobre o livre-arbítrio. Não se trata de saber se a química determina nossa vontade, mas de mapear, em cada camada dessa arquitetura — química, dinâmica e intencional — quantos graus de liberdade estão abertos ao agente.
+
+A liberdade deve ser compreendida como propriedade emergente e graduada. Depende da flexibilidade dinâmica do sistema nervoso, da estrutura normativa das práticas sociais e da capacidade linguística de organizar a experiência em termos de razões e projetos. Não se trata de defender ou negar o livre-arbítrio em bloco, mas de compreender as condições sob as quais a agência se constitui — e sob as quais ela se deteriora.
+
+Só podemos avaliar adequadamente o que significa ser livre, e o que significa ser responsável, se compreendermos primeiro o que significa agir.
+
+::: {.cta-block}
+[Começar a leitura →](1.0-introducao.qmd){.btn-read}
+:::

@@ -1,0 +1,26 @@
+---
+title: "Referências Bibliográficas"
+bibliography: references/references.bib
+csl: references/csl_styles/ABNT.csl
+---
+
+# Bibliografia Completa
+
+::: {#refs}
+:::
+
+---
+
+# Recursos Adicionais
+
+## Livros Recomendados
+
+[Lista será adicionada]
+
+## Artigos Seminais
+
+[Lista será adicionada]
+
+## Recursos Online
+
+[Lista será adicionada]
