@@ -31,5 +31,5 @@ A liberdade deve ser compreendida como propriedade emergente e graduada. Depende
 Só podemos avaliar adequadamente o que significa ser livre, e o que significa ser responsável, se compreendermos primeiro o que significa agir.
 
 ::: {.cta-block}
-[Começar a leitura →](1.0-introducao.qmd){.btn-read}
+[Começar a leitura →](capitulos/1.0-introducao.qmd){.btn-read}
 :::

@@ -1,11 +1,13 @@
 # Metadados Globais do Projeto
 
-# Bibliografia global
-bibliography: references/references.bib
-
-# Estilos de Citação e Referências
-csl: references/csl_styles/ABNT.csl  
-#csl: references/csl_styles/vancouver.csl  
+# Bibliografia e CSL foram movidos para _quarto.yml (nível de PROJETO).
+# Motivo: com as páginas organizadas em subpastas (capitulos/, casos/,
+# apendices/), o caminho relativo aqui no _metadata.yml não era resolvido
+# a partir das subpastas e o citeproc deixava as citações cruas ([@chave]).
+# No _quarto.yml o caminho é resolvido relativo à raiz do projeto e vale
+# para todos os documentos, em qualquer subpasta.
+#   bibliography: references/references.bib
+#   csl: references/csl_styles/ABNT.csl
 
 # Configurações de linguagem
 lang: pt-BR

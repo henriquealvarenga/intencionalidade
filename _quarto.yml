@@ -4,6 +4,13 @@ project:
   resources:
     - fonts/
 
+# Bibliografia e estilo de citação — nível de PROJETO.
+# Definidos aqui (e não no _metadata.yml) para que o caminho seja resolvido
+# relativo à raiz do projeto e as citações funcionem nas páginas que estão
+# em subpastas (capitulos/, casos/, apendices/).
+bibliography: references/references.bib
+csl: references/csl_styles/ABNT.csl
+
 website:
   title: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
   site-url: "https://henriquealvarenga.com"
@@ -26,64 +33,66 @@ website:
         contents:
           - text: "Prefácio"
             href: index.qmd
+      - section: "Capítulos"
+        contents:
           - text: "Introdução"
-            href: 1.0-introducao.qmd
+            href: capitulos/1.0-introducao.qmd
           - text: "Da liberdade à Coordenação"
-            href: 1.1-liberdade-coordenação.qmd
+            href: capitulos/1.1-liberdade-coordenacao.qmd
           - text: "Vontade"
-            href: 1.2-vontade.qmd
+            href: capitulos/1.2-vontade.qmd
           - text: "De Tomás de Aquino a Davidson"
-            href: 1.3-davidson.qmd
+            href: capitulos/1.3-davidson.qmd
           - text: "Intencionalidade"
-            href: 1.4-intencionalidade-pratica.qmd
+            href: capitulos/1.4-intencionalidade-pratica.qmd
           - text: "Impulsividade"
-            href: 1.5-impulsividade.qmd
+            href: capitulos/1.5-impulsividade.qmd
           - text: "Graus de Liberdade"
-            href: 1.6-graus-de-liberdade.qmd
+            href: capitulos/1.6-graus-de-liberdade.qmd
           - text: "Neuroquimica"
-            href: 1.7-neuroquimica.qmd
+            href: capitulos/1.7-neuroquimica.qmd
           - text: "Conclusão"
-            href: 1.8-conclusao.qmd
+            href: capitulos/1.8-conclusao.qmd
       - section: "Casos"
         contents:
           - text: "Casos"
-            href: 5.0-casos_clinicos.qmd
+            href: casos/5.0-casos_clinicos.qmd
           - text: "Lobotmia"
-            href: 5.1-lobotomia.qmd
+            href: casos/5.1-lobotomia.qmd
           - text: "Agressividade"
-            href: 5.2-agressividade.qmd
+            href: casos/5.2-agressividade.qmd
           - text: "Pedofilia"
-            href: 5.3-pedofilia.qmd
+            href: casos/5.3-pedofilia.qmd
           - text: "Hipersexualidade"
-            href: 5.4-hipersexualidade.qmd
+            href: casos/5.4-hipersexualidade.qmd
           - text: "Cleptomania"
-            href: 5.5-cleptomania.qmd
+            href: casos/5.5-cleptomania.qmd
           - text: "TOC"
-            href: 5.6-toc.qmd
+            href: casos/5.6-toc.qmd
           - text: "Tricotilomania"
-            href: 5.7-tricotilomania.qmd
+            href: casos/5.7-tricotilomania.qmd
           - text: "Phineas Gage"
-            href: 5.8-phineas-gage.qmd
+            href: casos/5.8-phineas-gage.qmd
           - text: "Charles Whitman"
-            href: 5.9-charles-whitman.qmd
+            href: casos/5.9-charles-whitman.qmd
           - text: "Mão Alienígena"
-            href: 5.10-mao-alienigena.qmd
+            href: casos/5.10-mao-alienigena.qmd
           - text: "Kenneth Parks"
-            href: 5.11-sonambulismo-homicida.qmd
+            href: casos/5.11-sonambulismo-homicida.qmd
           - text: "Paciente SM"
-            href: 5.12-paciente-sm-amigdala.qmd
+            href: casos/5.12-paciente-sm-amigdala.qmd
           - text: "EVR / Elliott"
-            href: 5.13-evr-marcador-somatico.qmd
+            href: casos/5.13-evr-marcador-somatico.qmd
       - section: "Apêndices"
         contents:
           - text: "Sistemas Dinâmicos"
-            href: 10.1-sistemas-dinamicos.qmd
+            href: apendices/10.1-sistemas-dinamicos.qmd
           - text: "Vontade nas Tradições Religiosas"
-            href: 10.2-apendice-vontade-religioes.qmd
+            href: apendices/10.2-apendice-vontade-religioes.qmd
           - text: "Glossário"
-            href: 10.3-glossario.qmd
+            href: apendices/10.3-glossario.qmd
           - text: "Neuroquímica (versão detalhada)"
-            href: 10.4-apendice-neuroquimica-detalhada.qmd
+            href: apendices/10.4-apendice-neuroquimica-detalhada.qmd
 
   page-footer:
     left: "© 2026 Henrique Alvarenga"
