@@ -1,11 +1,21 @@
 project:
   type: website
   output-dir: docs
+  # Renderiza SÓ os .qmd (todo o conteúdo do livro é .qmd — convenção do projeto).
+  # Sem isso, o Quarto transformaria qualquer .md largado em atividades/ (specs,
+  # planejamento) numa página .html pública. As atividades .html entram como
+  # resources (copiadas), não como render.
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
   resources:
     - fonts/
-    # Atividades interativas (HTML/JS puro, fora do fluxo .qmd). Copiadas como
-    # estão para docs/ — inclui atividades/lib/. NÃO inclui supabase/ (infra).
-    - atividades/**
+    # Atividades interativas (HTML/JS puro, fora do fluxo .qmd). Publicamos só o
+    # APP — páginas .html + JS compartilhado em lib/ — e NÃO o glob amplo: assim
+    # specs/planejamento (.md) largados em atividades/ nunca vazam para o site.
+    # NÃO inclui supabase/ (infra).
+    - atividades/*.html
+    - atividades/lib/
 
 # Bibliografia e estilo de citação — nível de PROJETO.
 # Definidos aqui (e não no _metadata.yml) para que o caminho seja resolvido
