@@ -9,6 +9,13 @@
 # Claude Code / Cowork
 .claude/
 
+# Segredos / credenciais — NUNCA versionar.
+# O .env fica só no disco local do autor (senha do Supabase, etc.).
+# O .env.example (sem valores reais) FICA versionado como modelo.
+.env
+.env.*
+!.env.example
+
 # Arquivos de referência grandes
 references/books/
 references/_PDFs/books/
