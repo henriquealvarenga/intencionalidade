@@ -40,7 +40,11 @@ website:
     # O alvo é um resource HTML/JS puro (atividades/**), não um .qmd.
     right:
       - text: "Atividades"
-        href: atividades/01-continuum.html
+        menu:
+          - text: "1 · Continuum"
+            href: atividades/01-continuum.html
+          - text: "2 · Júri simulado"
+            href: atividades/02-juri.html
 
   sidebar:
     style: "docked"
