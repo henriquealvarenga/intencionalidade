@@ -33,10 +33,12 @@ references/_PDFs/**/*.pdf
 # Permanecem no disco do autor como referência pessoal.
 old files/
 
-# Specs/planejamento internos das atividades — referência local do autor.
-# Ficam FORA do git (e, pelo glob de resources, fora do site publicado).
+# Specs/planejamento/textos internos das atividades — referência local do autor
+# (mantidos no Cowork). Ficam FORA do git (e, pelos globs de render/resources,
+# fora do site publicado).
 atividades/DESIGN.md
 atividades/SPEC-*.md
+atividades/*-textos.md
 
 # R and RStudio
 .Rproj.user
