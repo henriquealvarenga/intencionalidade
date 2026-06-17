@@ -23,10 +23,14 @@ website:
 
   navbar:
     background: primary
-    # Navbar minimalista (opção B): só título do site (vem de website.title).
-    # Os três links (Início/Casos/Apêndices) foram removidos — o sidebar
-    # já lista tudo. A busca aparece automaticamente quando habilitada no
-    # sidebar (sidebar.search abaixo), renderizada como ícone no navbar.
+    # Navbar minimalista: título do site (vem de website.title) + um único link
+    # "Atividades", visível em todas as páginas, para quem navega pelo livro
+    # achar a atividade interativa. O sidebar segue listando os capítulos; a
+    # busca aparece como ícone no navbar (habilitada em sidebar.search abaixo).
+    # O alvo é um resource HTML/JS puro (atividades/**), não um .qmd.
+    right:
+      - text: "Atividades"
+        href: atividades/01-continuum.html
 
   sidebar:
     style: "docked"
