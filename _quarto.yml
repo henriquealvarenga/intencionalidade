@@ -3,6 +3,9 @@ project:
   output-dir: docs
   resources:
     - fonts/
+    # Atividades interativas (HTML/JS puro, fora do fluxo .qmd). Copiadas como
+    # estão para docs/ — inclui atividades/lib/. NÃO inclui supabase/ (infra).
+    - atividades/**
 
 # Bibliografia e estilo de citação — nível de PROJETO.
 # Definidos aqui (e não no _metadata.yml) para que o caminho seja resolvido
