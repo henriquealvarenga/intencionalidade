@@ -33,12 +33,12 @@ references/_PDFs/**/*.pdf
 # Permanecem no disco do autor como referência pessoal.
 old files/
 
-# Specs/planejamento/textos internos das atividades — referência local do autor
-# (mantidos no Cowork). Ficam FORA do git (e, pelos globs de render/resources,
-# fora do site publicado).
-atividades/DESIGN.md
-atividades/SPEC-*.md
-atividades/*-textos.md
+# Docs internos do autor nas atividades (specs, planejamento, textos, léxicos) —
+# mantidos no Cowork. TODO .md em atividades/ é doc interno: o app é .html/.js e
+# o conteúdo do livro é .qmd; nenhum .md daqui vai pro git nem (pelos globs de
+# render/resources) pro site. Regra única cobre DESIGN.md, SPEC-*.md, *-textos.md,
+# FENOMENOS.md e futuros.
+atividades/*.md
 
 # R and RStudio
 .Rproj.user

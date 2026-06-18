@@ -45,6 +45,8 @@ website:
             href: atividades/01-continuum.html
           - text: "2 · Júri simulado"
             href: atividades/02-juri.html
+          - text: "3 · Nomear o fenômeno"
+            href: atividades/03-fenomenos.html
 
   sidebar:
     style: "docked"
