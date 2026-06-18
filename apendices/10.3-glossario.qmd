@@ -16,8 +16,69 @@ A lição prática é simples: o que importa é compreender o fenômeno, não de
 
 ---
 
-## Termos
+As definições seguem o Roteiro do Exame do Estado Mental do autor (baseado em Dalgalarrondo, 2019, e Kaplan & Sadock, 2017), condensadas. As âncoras remetem ao *Sims — Sintomas da Mente* (5ª ed.). Onde o nome do Sims difere do roteiro, ele vem indicado — pelo motivo explicado acima. O que se aprende não é o termo isolado, é a **fronteira** entre termos vizinhos: por isso cada grupo fecha com a fronteira em jogo.
 
-::: {.callout-note appearance="minimal"}
-Em construção — as entradas do glossário serão escritas em seguida.
-:::
+## Vontade e iniciativa (volição) {#sec-glossario-volicao}
+
+No Sims: cap. 18, *Perturbações da Vontade e Execução*.
+
+- **Hipobulia** — diminuição da vontade e da iniciativa.
+- **Abulia** — ausência de vontade; incapacidade de iniciar a ação, sem que haja bloqueio motor que a impeça (estimulado de fora, o sujeito age). No Sims: *perda da vontade* ou *perturbação da iniciativa* (Bleuler); também *avolição*.
+- **Hiperbulia** — aumento patológico da vontade e da iniciativa.
+- **Ambivalência (ambitendência) volitiva** — vontades opostas e simultâneas, que se anulam: quer e contraquer ao mesmo tempo, e a decisão trava. Bleuler a descreveu como traço fundamental da esquizofrenia, embora não seja exclusiva dela.
+
+> **Fronteira.** Abulia (não **inicia** a ação) × apatia (não se **comove**) × anedonia (não sente **prazer**). E a ambivalência trava a ação por **conflito** de vontades, não por ausência delas.
+
+## Afeto que se confunde com falta de vontade {#sec-glossario-afeto}
+
+No Sims: cap. 16, *Alterações de Afeto e Emoções*.
+
+- **Apatia** — diminuição da excitabilidade emotiva; "não sinto nada".
+- **Anedonia** — incapacidade de sentir prazer.
+- **Embotamento afetivo** — perda profunda das vivências afetivas.
+- **Sentimento de falta de sentimento** — o sujeito percebe e **sofre** com a própria incapacidade de sentir.
+- **Indiferença afetiva (*belle indifférence*)** — frieza diante dos próprios sintomas.
+
+> **Fronteira.** O embotado **não sente**; quem tem "sentimento de falta de sentimento" **sofre por não sentir**. E a falta de iniciativa pode vir do **afeto** (apatia) ou da **vontade** (abulia).
+
+## Impulso, compulsão e obsessão {#sec-glossario-impulso}
+
+No Sims: cap. 17, *Obsessões e Compulsões*; atos impulsivos no cap. 18, *Atos Impulsivos e Agressivos*.
+
+- **Ato impulsivo** — sem fases de deliberação e decisão; **egossintônico**; descarga imediata; baixa tolerância à frustração.
+- **Impulsividade** — agir sem planejar nem pesar as consequências.
+- **Ato compulsivo** — **egodistônico**; o sujeito tenta resistir e sente **alívio** ao realizar; ligado a obsessões. Lewis (1936): compulsão subjetiva, resistência e **preservação do insight**.
+- **Obsessão (ideia obsessiva)** — pensamento intrusivo, repetitivo e egodistônico, que gera ansiedade e ao qual o sujeito resiste, com juízo crítico preservado. No Sims: "a palavra obsessão é reservada para o pensamento; compulsão, para o ato".
+
+> **Fronteira.** Impulsivo (alivia a tensão, **sem crítica**) × compulsivo (alivia, **com crítica preservada**) × obsessão (é **ideia**, não ato).
+
+## Autoria e agência — o Eu age? {#sec-glossario-eu}
+
+No Sims: cap. 12, *Perturbações do Eu*; pensamento feito e roubo do pensamento no cap. 9, *Perturbações do Processo de Pensamento*; despersonalização e desrealização no cap. 13, *Despersonalização*.
+
+- **Vivência de influência (ação controlada)** — atos e impulsos sentidos como impostos por uma força externa; o sujeito **não reconhece** o ato como seu. No Sims: *experiência de passividade* (sintoma de primeira ordem de Schneider).
+- **Pensamento feito (imposto)** — pensamentos vividos como inseridos por outros.
+- **Roubo do pensamento** — sensação de que o pensamento foi retirado por uma força externa.
+- **Despersonalização** — estranheza em relação a **si mesmo**.
+- **Desrealização** — sensação de irrealidade do **mundo**.
+- **Alteração da consciência de existência** — "sou apenas uma máquina", "sou um nada".
+
+> **Fronteira.** Impulso egodistônico (reconhece o ato como **seu**, mas não controla) × vivência de passividade (**não reconhece** o ato como seu). Despersonalização (estranheza de **si**) × desrealização (irrealidade do **mundo**).
+
+## Movimento e ação: alterados, repetidos ou sem sujeito {#sec-glossario-psicomotricidade}
+
+No Sims: cap. 18, *Distúrbios do Movimento e Comportamento*; automatismo no cap. 3, *Consciência e Distúrbios da Consciência*.
+
+- **Estereotipia** — movimento repetitivo, uniforme e sem finalidade aparente.
+- **Maneirismo** — movimento bizarro e peculiar; caricatura de um gesto que tem sentido.
+- **Tique** — movimento involuntário, súbito e repetitivo.
+- **Ecopraxia** — imitação automática dos gestos do examinador.
+- **Obediência automática** — execução automática de qualquer ordem.
+- **Negativismo** — ativo (faz o oposto do que se pede) ou passivo (não faz nada).
+- **Catalepsia** — mantém a postura que lhe é imposta.
+- **Flexibilidade cérea** — resistência plástica à movimentação passiva.
+- **Estupor** — imobilidade e mutismo, sem resposta, por inibição motora, com a consciência possivelmente preservada.
+- **Acatisia (inquietação)** — impossibilidade de ficar parado.
+- **Automatismo** — ação complexa sem sujeito consciente (sonambulismo, estados crepusculares).
+
+> **Fronteira.** Estereotipia × maneirismo × tique × ato compulsivo: todos **repetem**, por mecanismos diferentes. Estupor × abulia: não age por **inibição motora** × por **vontade abolida**.
