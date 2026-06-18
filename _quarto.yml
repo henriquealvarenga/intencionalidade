@@ -47,6 +47,9 @@ website:
             href: atividades/02-juri.html
           - text: "3 · Nomear o fenômeno"
             href: atividades/03-fenomenos.html
+          - text: "---"
+          - text: "Painel do professor"
+            href: atividades/painel.html
 
   sidebar:
     style: "docked"
