@@ -1,1 +1,23 @@
-# Em construção
+---
+title: "Glossário"
+subtitle: "Os termos da semiologia da vontade, do impulso, da ação e do Eu"
+toc: true
+---
+
+## Um fenômeno, muitos nomes {#sec-nomes-do-fenomeno}
+
+Na psicopatologia ainda há muita inconsistência nos nomes. O que um autor chama de abulia, outro chama de perda da vontade ou perturbação da iniciativa; a vivência de influência aparece como experiência de passividade; o juízo crítico vira insight; e volição é simplesmente vontade. Parece confuso, mas é a mesma psicopatologia falada em línguas diferentes.
+
+A razão é histórica. A semiologia da vontade e do Eu foi descrita, ao longo de um século, por escolas distintas: a fenomenologia alemã (Jaspers, Kurt Schneider, Scharfetter), a tradição francesa e a psicopatologia descritiva de língua inglesa (Fish, Sims, e mais tarde o DSM). Cada uma cunhou seu vocabulário para descrever os mesmos fenômenos. Vivência de influência (*Beeinflussungserlebnis*) e experiência de passividade são o mesmo sintoma de primeira ordem de Schneider — a fronteira do Eu se rompe e funções próprias são atribuídas a uma força externa. Volição e vontade são sinônimos; abulia, avolição e perturbação da iniciativa nomeiam a mesma coisa.
+
+Na essência, a diferença é de nome, não de conceito. Cabe, porém, uma ressalva: nomear não é neutro. Cada tradição recorta o fenômeno com finura própria. O roteiro de exame que seguimos, herdeiro da escola alemã, separa com cuidado abulia (a vontade), anedonia (o prazer) e apatia (a ressonância afetiva); o Sims, mais pragmático, reconhece que, na clínica, "é difícil distinguir ausência de necessidade, impulso, motivação ou vontade". O mesmo vale para insight: no uso inglês é um guarda-chuva mais largo — consciência de estar doente, reconhecimento dos sintomas como patológicos, adesão ao tratamento — do que o juízo crítico que se cobra sobre um sintoma isolado, ainda que, na compulsão, os dois coincidam, pois o paciente sabe que o ato é absurdo.
+
+A lição prática é simples: o que importa é compreender o fenômeno, não decorar o jargão. O nome é uma etiqueta útil, mas convencional.
+
+---
+
+## Termos
+
+::: {.callout-note appearance="minimal"}
+Em construção — as entradas do glossário serão escritas em seguida.
+:::
