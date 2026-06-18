@@ -33,11 +33,10 @@ references/_PDFs/**/*.pdf
 # Permanecem no disco do autor como referência pessoal.
 old files/
 
-# Docs internos do autor nas atividades (specs, planejamento, textos, léxicos) —
-# mantidos no Cowork. TODO .md em atividades/ é doc interno: o app é .html/.js e
-# o conteúdo do livro é .qmd; nenhum .md daqui vai pro git nem (pelos globs de
-# render/resources) pro site. Regra única cobre DESIGN.md, SPEC-*.md, *-textos.md,
-# FENOMENOS.md e futuros.
+# .md soltos no TOPO de atividades/ = handoffs/notas transitórias (ex.: _PROMPT-*).
+# Ficam fora do git. A regra é de 1 nível (não pega subpastas): a documentação de
+# design VERSIONADA vive em atividades/_specs/ (SPEC-*, TEXT-*, DESIGN.md, FENOMENOS.md)
+# — essa SIM entra no git, mas NÃO no site (resources só publica *.html + lib/).
 atividades/*.md
 
 # R and RStudio
