@@ -1,0 +1,57 @@
+---
+title: "Autogoverno"
+subtitle: "O que faz de uma ação minha"
+---
+
+## A pergunta que os planos deixam em aberto
+
+O capítulo anterior descreveu o agente como planejador: alguém que forma intenções estendidas no tempo, hierarquiza projetos e coordena o presente com compromissos futuros. Mas a teoria do planejamento, sozinha, responde a *como* a ação se mantém coerente sem responder a uma pergunta anterior: o que distingue a ação de que sou autor daquilo que apenas acontece em mim, ou através de mim?
+
+A formulação clássica do problema vem de Harry Frankfurt e do exemplo do usuário de drogas. Dois usuários sentem o mesmo desejo, com a mesma intensidade fisiológica, e ambos cedem a ele. A diferença é que o primeiro — o *relutante* — repudia o próprio desejo: gostaria de não querer a droga, e quando sucumbe sente que foi arrastado por uma força que reconhece como estranha. O segundo — o *satisfeito* — abraça o desejo, identifica-se com ele, não desejaria ser de outro modo. A química é idêntica; a agência, não. O primeiro é movido; o segundo, num sentido a esclarecer, age. O que sustenta essa diferença?
+
+Três abordagens enfrentaram essa diferença a partir de pontos de partida distintos: a de Frankfurt, a de Bratman e a de Fischer e Ravizza. O que as une não é uma resposta comum, mas uma maneira de pôr a pergunta — agência e liberdade não como um interruptor ligado ou desligado, e sim como algo graduado, que se tem mais ou menos e por partes.
+
+
+## Frankfurt: a hierarquia dos desejos
+
+A resposta de Frankfurt é estrutural. O que nos distingue não é ter desejos — qualquer animal os tem — mas ter desejos *sobre* nossos desejos. Frankfurt chama de **desejos de segunda ordem** as atitudes que tomamos em relação às nossas próprias motivações de primeira ordem: não apenas querer fumar, mas querer ou não querer ser alguém que quer fumar. Frankfurt chama de volição de segunda ordem o querer que decide qual dos desejos de primeira ordem deve me mover: quando quero que seja o desejo de parar, e não o de fumar, a comandar a ação. É nessa volição que ele localiza a vontade própria: identifico-me com o desejo que endosso, e esse endosso o torna meu. Liberdade da vontade, para Frankfurt, é a coincidência entre os dois.
+
+O problema nunca de todo resolvido por Frankfurt é a **regressão ao infinito** (*infinite regress*). Sua raiz é o **problema da autoridade** (*authority problem*): por que o nível de cima teria o direito de falar por mim? A teoria precisa que o desejo de segunda ordem *me represente* mais do que o desejo de primeira ordem que ele repudia. Mas o desejo de segunda ordem é apenas mais um estado mental que por acaso ocorre em mim, exatamente como o de primeira ordem; ele não vem carimbado com autoridade. O que confere autoridade a *ele*? Se a resposta for "um endosso de terceira ordem", o mesmo se repete no terceiro, e no quarto, ao infinito. É essa a estrutura viciosa da regressão: cada nível só recebe autoridade do nível acima, que por sua vez precisa de outro acima, de modo que a autoridade nunca se ancora — está sempre adiada para um andar superior que nunca chega. Pior, nada garante que os níveis concordem: posso ter um conflito *dentro* do segundo nível — parte de mim querendo querer parar, parte querendo querer continuar —, e então a teoria não tem onde localizar o "eu verdadeiro"; só sabe apontar para o andar seguinte.
+
+Frankfurt tenta barrar a regressão com a noção de *identificação decidida*: em algum ponto o agente se entrega a um endosso "sem reservas", e isso encerra a escalada. Mas o recurso desloca o problema sem dissolvê-lo. Declarar um nível "final" não explica de onde veio sua autoridade; apenas proíbe, por decreto, a pergunta que continuaria cabível. A entrega sem reservas é um evento mental a mais — e dele se pode perguntar de novo se *me* representa. A teoria hierárquica, levada às últimas consequências, ou regride ao infinito ou se interrompe arbitrariamente. Em nenhum dos casos mostra de onde, afinal, a vontade tira o direito de ser chamada de minha.
+
+## Bratman: do ato de endosso à política que dura
+
+Bratman estende a teoria do planejamento até o problema da identificação. Para ele, o autogoverno não se decide num ato interno de endosso, num instante de identificação sem reservas: constitui-se ao longo do tempo, na forma de **políticas autogovernantes** (*self-governing policies*).
+
+Uma política, no vocabulário de Bratman, não é um desejo nem uma decisão pontual: é um compromisso geral e estável sobre que considerações devem ter peso na minha deliberação. Quem tem a política de não fumar não apenas quer não fumar agora; tratou esse querer como tendo autoridade deliberativa duradoura, integrou-o à economia de planos que o atravessa no tempo, e em cada nova situação trata a questão como já encaminhada, não como reaberta. A autoridade do nível superior, que Frankfurt não conseguia fundamentar num instante, Bratman a ancora na *continuidade*: o que me representa não é o ato de endosso, é o padrão organizado que persiste e que conecta meu eu de ontem ao de amanhã. Autogoverno não é apenas um veredito interno, é uma forma de coerência sustentada.
+
+Visto dessa forma, a impulsividade deixa de ser "desejo em excesso" e passa a ser **falha de política**. O impulsivo não quer mais que os outros; ele falha em subordinar o querer imediato a um compromisso que dure mais que o momento. Não é que falte o segundo nível — muitas vezes ele está lá, lúcido, no arrependimento que se segue. Falta a estrutura que faça o segundo nível pesar *antes*, e não só depois. 
+
+## Fischer e Ravizza: ser responsivo a razões
+
+A tradição hierárquica tem um flanco persistente, o **problema do ab initio**: uma estrutura mental com a forma certa pode ter sido instalada de fora. Imagine um agente cujos desejos de segunda ordem e cujas políticas foram implantados por manipulação — condicionamento desde a infância, a doutrinação de uma seita, a manipulação por mídias e redes sociais que o escândalo Cambridge Analytica trouxe ao debate. A arquitetura está perfeita: há hierarquia, há política, há coerência temporal. E ainda assim hesitamos em chamar isso de autogoverno. A forma certa, obtida do modo errado, não basta.
+
+John Fischer e Mark Ravizza propõem um critério que não é estrutural, mas funcional. O que importa não é a *forma* da economia mental, mas como o mecanismo que produz a ação se comporta: ele é **responsivo a razões** (*reasons-responsive*)? Um mecanismo é responsivo a razões se, em situações em que houvesse razão suficiente para agir de outro modo, ele reconheceria essa razão (responsividade *receptiva*) e ajustaria a conduta de acordo (responsividade *reativa*). O agente autogovernado não é o que tem a hierarquia certa, é aquele cujo processo decisório *responderia diferentemente*.
+
+Esse critério tem duas virtudes: decompõe a falha do autogoverno em receptividade e reatividade, que podem falhar separadamente; e avalia não só o que o agente fez, mas o que faria se as razões fossem outras.
+
+## Onde o autogoverno se rompe
+
+A vantagem de tratar o autogoverno como mecanismo razão-responsivo é que ele para de ser tudo-ou-nada. Há *modos* de falhar, e cada caso clínico do site ilumina um deles: os dois primeiros são falhas do próprio mecanismo razão-responsivo — a reatividade, depois a receptividade —; os dois seguintes ficam abaixo dele, onde já não há autoria do ato, ou já não há agente algum.
+
+No **transtorno obsessivo-compulsivo**, a receptividade está intacta e a reatividade falha. O paciente reconhece plenamente a razão — sabe que a mão está limpa, que a porta está trancada, que o ritual é absurdo. A razão é recebida com perfeita clareza; o que não se segue é o ajuste da conduta. O mecanismo registra a razão e não a obedece. É uma falha reativa pura, e é por isso que o TOC é fenomenologicamente tão angustiante: a lucidez não liberta.
+
+Nos casos de **lesão frontal** — Gage, EVR, e os pacientes de marcador somático —, é a receptividade de longo prazo que se desfaz. Não que o paciente seja irracional momento a momento; EVR raciocina bem em testes, articula as razões corretas no abstrato. Mas a razão de longo prazo não *pesa* na deliberação concreta: o futuro não comparece com força motivacional, o sinal somático que deveria marcar a opção ruim não aparece. Aqui a política bratmaniana perde seu lastro afetivo — há plano no papel e nenhuma força que o sustente diante do imediato.
+
+Na **síndrome da mão alienígena**, dissolve-se algo ainda mais básico, anterior à hierarquia e às razões: a própria *autoria* do movimento. A mão age, executa gestos coordenados e aparentemente propositais, e o agente os observa como observaria os de outra pessoa. Não há volição de segunda ordem a respeito daquele movimento porque não há sequer a experiência de que o movimento seja seu para endossar ou repudiar. É o limite inferior do autogoverno: o ponto em que falta não a política, mas o agente a quem a ação possa ser atribuída.
+
+E no caso forense extremo — o **sonambulismo homicida** de Kenneth Parks —, o que está em jogo é se havia *qualquer* mecanismo razão-responsivo operando. O sonâmbulo não recebe razões; está, no sentido literal, ausente. O direito, ao absolver Parks, fez implicitamente o que Fischer e Ravizza fazem explicitamente: localizou a responsabilidade não no resultado, mas na presença ou ausência de um mecanismo capaz de responder a razões.
+
+## Liberdade é estrutura, não opções abertas
+
+A liberdade é uma propriedade graduada. A tentação intuitiva é igualar liberdade a opções: quanto mais opções disponíveis, mais livre o agente. O autogoverno mostra que essa equação está invertida.
+
+O agente autogovernado não é o que mantém todas as opções abertas, é o que estruturou suas opções — em políticas, hábitos, compromissos — de modo que a ação adequada emerja sem que tudo precise ser redeliberado a cada instante. A política de Bratman faz exatamente isso: retira da mesa, de antemão, deliberações que de outro modo se reabririam sem fim. Liberdade não é a planície sem restrição em que tudo permanece possível; é a restrição certa, aquela que o agente impôs a si mesmo e que faz a ação seguir de quem ele é, e não do impulso do momento.
+
+Visto assim, a impulsividade é o oposto da liberdade plena, não sua forma extrema: são possibilidades imediatas que nenhuma política subordinou, e o resultado não é um agente mais livre, mas um agente à mercê do que aparece. No limite, a ausência total de estrutura não é soberania — é o tremor, o tique, a mão alienígena. O agente livre não é aquele diante de quem tudo permanece possível; é aquele que governa o que, entre tudo o que é possível, de fato se torna ação.

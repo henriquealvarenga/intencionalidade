@@ -21,10 +21,11 @@ Intencionalidade_Project/
 ├── 1.2-vontade.qmd                      # Vontade
 ├── 1.3-davidson.qmd                     # De Tomás de Aquino a Davidson
 ├── 1.4-intencionalidade-pratica.qmd     # Intencionalidade
-├── 1.5-impulsividade.qmd                # Impulsividade
-├── 1.6-graus-de-liberdade.qmd           # Graus de liberdade
-├── 1.7-neuroquimica.qmd                 # Neuroquímica
-├── 1.8-conclusao.qmd                    # Conclusão
+├── 1.5-autogoverno.qmd                  # Autogoverno
+├── 1.6-impulsividade.qmd                # Impulsividade
+├── 1.7-graus-de-liberdade.qmd           # Graus de liberdade
+├── 1.8-neuroquimica.qmd                 # Neuroquímica
+├── 1.9-conclusao.qmd                    # Conclusão
 │
 ├── 5.0-casos_clinicos.qmd               # Casos clínicos (índice)
 ├── 5.1-lobotomia.qmd                    # Lobotomia
