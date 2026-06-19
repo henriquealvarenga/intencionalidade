@@ -47,21 +47,13 @@ website:
             href: apresentacao/keynote1.qmd
           - text: "2 · Você escolhe o que faz? (Continuum)"
             href: apresentacao/keynote2.qmd
+      # Um link único para o HUB das atividades (substitui o dropdown de 5 links).
+      # O hub é o portão de identidade: aula (campeonato) ou treino (livre).
       - text: "Atividades"
-        menu:
-          - text: "1 · Continuum"
-            href: atividades/01-continuum.html
-          - text: "2 · Júri simulado"
-            href: atividades/02-juri.html
-          - text: "3 · Nomear o fenômeno"
-            href: atividades/03-fenomenos.html
-          - text: "4 · Simulado comentado"
-            href: atividades/04-questoes.html
-          - text: "5 · Arquitetura da ação (extra)"
-            href: atividades/05-planos.html
-          - text: "---"
-          - text: "Painel do professor"
-            href: atividades/painel.html
+        href: atividades/index.html
+      # Painel do professor: à parte (login por email; URL direta para o professor).
+      - text: "Painel do professor"
+        href: atividades/painel.html
 
   sidebar:
     style: "docked"
