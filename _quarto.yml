@@ -39,6 +39,14 @@ website:
     # busca aparece como ícone no navbar (habilitada em sidebar.search abaixo).
     # O alvo é um resource HTML/JS puro (atividades/**), não um .qmd.
     right:
+      # Decks de abertura (revealjs). Alvo é .qmd renderizado para .html —
+      # o Quarto resolve o href .qmd → .html. Páginas fullscreen, sem navbar.
+      - text: "Apresentação"
+        menu:
+          - text: "1 · Intencionalidade & Autogoverno"
+            href: apresentacao/keynote1.qmd
+          - text: "2 · Você escolhe o que faz? (Continuum)"
+            href: apresentacao/keynote2.qmd
       - text: "Atividades"
         menu:
           - text: "1 · Continuum"
