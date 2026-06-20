@@ -80,7 +80,11 @@ em áudio, painel ou deploy, leia o checklist (§11) de lá. Armadilhas que já 
 - **Identidade compartilhada:** uma chave única de `localStorage` + boot-guard; sem
   re-login por página. (§5)
 - **Agregar escalas diferentes:** normalize /100 + **clamp**; confira `maxPontos` contra
-  a constante de score real. (§6)
+  a constante de score real. **Placar revelado rodada a rodada = acumulado progressivo**
+  (corte pela posição no fluxo, não "tudo no banco"). (§6)
+- **Login do painel (Supabase magic link):** o email embutido tem cota baixíssima
+  (`429 over_email_send_rate_limit`) → **custom SMTP** antes de usar com a turma. Login
+  quebrou? Cheque o status do `/auth/v1/otp` (429 = cota, não bug). (§12)
 
 ---
 
