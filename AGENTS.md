@@ -60,6 +60,28 @@ git commit -m "..."
 git push origin main   # GitHub Actions cuida do resto
 ```
 
+## Lições de engenharia (reutilizáveis — valem para os outros sites do autor)
+
+Diário detalhado em `atividades/_specs/ENGENHARIA-modos-campeonato.md`. Antes de mexer
+em áudio, painel ou deploy, leia o checklist (§11) de lá. Armadilhas que já custaram tempo:
+
+- **Web Audio mudo no Safari:** nunca use `exponentialRampToValueAtTime` no ganho (o
+  WebKit não aplica → som inaudível, mas o indicador de áudio da aba acende). Use
+  **rampas lineares**; espere o `resume()` (assíncrono) resolver antes de agendar;
+  destrave o `AudioContext` no 1º gesto. (ENGENHARIA §7)
+- **Ordem das abas do painel = ordem dos `<script>`** em `painel.html` (auto-registro
+  via `registrarPainel`). Reordenar UI = reordenar `<script>`, não mexer no JS. (§3)
+- **Uma tela, uma responsabilidade:** não repita o mesmo dado (ex.: placar) numa tela
+  de gabarito *e* numa tela de pódio dedicada. (§4)
+- **Cache de deploy:** no Safari o hard refresh é `Cmd+Option+R` (`Cmd+Shift+R` é Modo
+  Leitura!). Valide deploy com cache-bust (`?cb=`) e conferindo o `headSha` do run. (§8)
+- **Renomear arquivo:** `git mv` + `grep -rn`; atualize referência viva (`rota:`, `href`),
+  preserve registro histórico nas specs. A ordem do fluxo mora num registry, não no nome. (§2)
+- **Identidade compartilhada:** uma chave única de `localStorage` + boot-guard; sem
+  re-login por página. (§5)
+- **Agregar escalas diferentes:** normalize /100 + **clamp**; confira `maxPontos` contra
+  a constante de score real. (§6)
+
 ---
 
-*Última atualização: maio de 2026.*
+*Última atualização: junho de 2026.*
