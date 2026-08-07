@@ -26,7 +26,11 @@ csl: references/csl_styles/ABNT.csl
 
 website:
   title: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
-  site-url: "https://henriquealvarenga.com"
+  # O caminho precisa estar embutido no site-url: o Quarto ignora site-path ao
+  # montar o sitemap e o robots.txt, e sem isso os 34 endereços do subsite eram
+  # declarados na RAIZ do domínio (todos 404), poluindo a propriedade principal
+  # no Search Console.
+  site-url: "https://henriquealvarenga.com/intencionalidade"
   site-path: "/intencionalidade"
   favicon: favicon.ico
   bread-crumbs: false
@@ -127,7 +131,7 @@ website:
             href: apendices/10.4-apendice-neuroquimica-detalhada.qmd
 
   page-footer:
-    left: "© 2026 Henrique Alvarenga"
+    left: "© 2026 Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381 · [henriquealvarenga.com](https://henriquealvarenga.com)"
     center:
       - text: "Créditos"
         href: about.qmd
@@ -139,6 +143,9 @@ format:
   html:
     theme: theme-editorial.scss
     css: styles.css
+    canonical-url: true
+    include-in-header:
+      - file: _includes/autor.html
     toc: true
     toc-depth: 3
     toc-location: right
