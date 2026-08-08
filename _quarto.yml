@@ -131,7 +131,9 @@ website:
             href: apendices/10.4-apendice-neuroquimica-detalhada.qmd
 
   page-footer:
-    left: "© 2026 Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381 · [henriquealvarenga.com](https://henriquealvarenga.com)"
+    left: |
+      Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381<br>
+      [henriquealvarenga.com](https://henriquealvarenga.com)
     center:
       - text: "Créditos"
         href: about.qmd
@@ -146,6 +148,7 @@ format:
     canonical-url: true
     include-in-header:
       - file: _includes/autor.html
+      - file: _includes/rodape.html
     toc: true
     toc-depth: 3
     toc-location: right
