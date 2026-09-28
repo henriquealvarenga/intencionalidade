@@ -1,15 +1,15 @@
 ---
-title: "Apêndice: Neuroquímica detalhada"
+title: "Neuroquímica detalhada"
 subtitle: "Material complementar preservado para revisão"
 ---
 
 ::: {.callout-note}
-## Sobre este apêndice
+### Sobre este apêndice
 
 Cópia integral do capítulo *Neuroquímica da Volição* (1.7) no estado anterior à reestruturação. Preservado para que o material verbose original — incluindo os três casos detalhados de Parkinson (Sr. B, Sra. C, Sr. D), os experimentos com ioimbina e as descrições nosológicas de jogo patológico, tricotilomania e cleptomania — fique acessível para consulta enquanto a versão enxuta do capítulo é desenvolvida no fio principal.
 :::
 
-# Introdução
+## Introdução
 
 Nos capítulos anteriores, vimos que:
 - Consciência chega "tarde", mas isso não implica determinismo (Cap. 1)
@@ -31,9 +31,9 @@ Este capítulo explorará a distinção entre:
 
 E argumentará que esta distinção importa para entender quando biologia "determina" vs. quando meramente "possibilita" comportamento.
 
-# 1. O Caso Paradigmático: Parkinson e Agonistas Dopaminérgicos
+## 1. O Caso Paradigmático: Parkinson e Agonistas Dopaminérgicos
 
-## 1.1 Doença de Parkinson: Contexto Necessário
+### 1.1 Doença de Parkinson: Contexto Necessário
 
 A doença de Parkinson é neurodegenerativa, caracterizada por morte progressiva de neurônios dopaminérgicos na substância negra. Isto resulta em déficit dopaminérgico no estriado, causando:
 
@@ -48,7 +48,7 @@ A doença de Parkinson é neurodegenerativa, caracterizada por morte progressiva
 
 Estes tratamentos são essenciais e melhoram a qualidade de vida. Mas têm efeito colateral inesperado.
 
-## 1.2 Transtornos de Controle de Impulsos Induzidos por Agonistas
+### 1.2 Transtornos de Controle de Impulsos Induzidos por Agonistas
 
 Em 2010, um estudo multicêntrico examinou 3.090 pacientes com Parkinson [@weintraub2010impulse]. Os achados foram significativos:
 
@@ -63,9 +63,9 @@ Em 2010, um estudo multicêntrico examinou 3.090 pacientes com Parkinson [@weint
 
 **Fator de risco mais forte**: Uso de agonistas dopaminérgicos, particularmente pramipexol e ropinirol.
 
-## 1.3 Apresentação Clínica: Casos Reais
+### 1.3 Apresentação Clínica: Casos Reais
 
-### Caso 1: Sr. B., 58 anos
+#### Caso 1: Sr. B., 58 anos
 
 **História prévia**: Engenheiro aposentado, casado há 30 anos, dois filhos. Nunca jogou em cassinos, nunca comprou bilhetes de loteria. "Sempre achei jogo de azar uma perda de dinheiro", relatava.
 
@@ -85,7 +85,7 @@ Em 2010, um estudo multicêntrico examinou 3.090 pacientes com Parkinson [@weint
 
 **Três anos de seguimento**: Sem recaída. Nunca mais jogou. "Não tenho o menor interesse."
 
-### Caso 2: Sra. C., 62 anos
+#### Caso 2: Sra. C., 62 anos
 
 **História prévia**: Professora de escola primária, vida sexual normal com marido.
 
@@ -99,7 +99,7 @@ Em 2010, um estudo multicêntrico examinou 3.090 pacientes com Parkinson [@weint
 
 **Resultado**: Hipersexualidade desapareceu em semanas. Retornou à libido basal normal.
 
-### Caso 3: Sr. D., 51 anos
+#### Caso 3: Sr. D., 51 anos
 
 **História prévia**: Nunca teve problemas com compras, vivia dentro do orçamento.
 
@@ -109,7 +109,7 @@ Em 2010, um estudo multicêntrico examinou 3.090 pacientes com Parkinson [@weint
 
 **Descontinuação de ropinirol**: Compulsão desapareceu.
 
-## 1.4 Características Fenomenológicas Comuns
+### 1.4 Características Fenomenológicas Comuns
 
 Estes casos compartilham padrão consistente:
 
@@ -141,11 +141,11 @@ Estes casos compartilham padrão consistente:
 - Como se interruptor fosse desligado
 - Pacientes frequentemente relatam perplexidade retrospectiva: "Por que eu fazia aquilo?"
 
-## 1.5 Mecanismo Neurobiológico
+### 1.5 Mecanismo Neurobiológico
 
 Por que agonistas dopaminérgicos produzem estes efeitos?
 
-### 1.5.1 Estimulação Excessiva de Receptores D2/D3
+#### 1.5.1 Estimulação Excessiva de Receptores D2/D3
 
 Agonistas dopaminérgicos estimulam receptores dopaminérgicos no estriado ventral (núcleo accumbens) - região crítica para processamento de recompensa e motivação [@haber2010reward].
 
@@ -155,17 +155,17 @@ Agonistas dopaminérgicos estimulam receptores dopaminérgicos no estriado ventr
 
 **Resultado**: Sistema de recompensa opera em regime anormalmente elevado - recompensas são hiper-salientes, impulsos são intensificados, controle inibitório é prejudicado
 
-### 1.5.2 Sensibilização
+#### 1.5.2 Sensibilização
 
 Com uso continuado, pode haver sensibilização do sistema de recompensa - respostas a estímulos recompensadores tornam-se progressivamente maiores. Isto é análogo ao que ocorre em dependências químicas.
 
-### 1.5.3 Dano ao Controle Inibitório
+#### 1.5.3 Dano ao Controle Inibitório
 
 Simultaneamente, há evidência de que agonistas dopaminérgicos podem prejudicar função de circuitos pré-frontais envolvidos em controle inibitório e tomada de decisão [@dalley2011impulsivity].
 
 **Combinação fatal**: Sistema de recompensa hiperestimulado + controle inibitório prejudicado = compulsões irresistíveis
 
-## 1.6 A Mensagem Filosófica
+### 1.6 A Mensagem Filosófica
 
 Este fenômeno é filosoficamente importante porque mostra: **química cerebral pode determinar "desejos" e "vontades"**.
 
@@ -192,7 +192,7 @@ Este fenômeno é filosoficamente importante porque mostra: **química cerebral 
 - É regime anormal de funcionamento
 - Induzido por intervenção farmacológica que empurra sistema para fora de range normal
 
-## 1.7 A Distinção Crucial: Regime Normal vs. Regime Patológico
+### 1.7 A Distinção Crucial: Regime Normal vs. Regime Patológico
 
 Aqui está o ponto central: **O fato de que agonistas dopaminérgicos podem *criar* determinação biológica do comportamento não implica que comportamento normal é sempre determinado**.
 
@@ -204,9 +204,9 @@ Aqui está o ponto central: **O fato de que agonistas dopaminérgicos podem *cri
 
 Agonistas dopaminérgicos em excesso empurram o sistema de Regime 1 para Regime 2.
 
-# 2. O Contraste: Restaurando Flexibilidade no TDAH
+## 2. O Contraste: Restaurando Flexibilidade no TDAH
 
-## 2.1 TDAH: Disfunção do Controle Inibitório
+### 2.1 TDAH: Disfunção do Controle Inibitório
 
 Transtorno de Déficit de Atenção e Hiperatividade é caracterizado por [@barkley1997behavioral]:
 - **Desatenção**: Dificuldade em sustentar foco, facilmente distraído
@@ -215,7 +215,7 @@ Transtorno de Déficit de Atenção e Hiperatividade é caracterizado por [@bark
 
 **Substrato neurobiológico**: Disfunção em circuitos pré-frontais e suas conexões com gânglios da base, particularmente envolvendo sistemas dopaminérgico e noradrenérgico [@arnsten2009toward].
 
-## 2.2 Metilfenidato: Restaurando Função Normal
+### 2.2 Metilfenidato: Restaurando Função Normal
 
 Metilfenidato (Ritalina) bloqueia transportadores de dopamina e noradrenalina, aumentando níveis extracelulares destes neurotransmissores no córtex pré-frontal [@arnsten2009toward].
 
@@ -227,7 +227,7 @@ Metilfenidato (Ritalina) bloqueia transportadores de dopamina e noradrenalina, a
 
 Não cria "supercontrole" artificial. Restaura funcionamento para níveis normais.
 
-## 2.3 Caso Ilustrativo: Adolescente com TDAH
+### 2.3 Caso Ilustrativo: Adolescente com TDAH
 
 **Marcos, 14 anos**
 
@@ -245,7 +245,7 @@ Não cria "supercontrole" artificial. Restaura funcionamento para níveis normai
 
 **Marcos relata**: "Com a medicação, sinto que finalmente consigo ser eu mesmo. Não é que ela me dê poderes especiais - é que ela remove uma névoa, uma agitação interna que sempre estava lá. Agora consigo escolher no que focar, consigo parar e pensar antes de agir."
 
-## 2.4 A Distinção Crucial: Restaurar vs. Empurrar
+### 2.4 A Distinção Crucial: Restaurar vs. Empurrar
 
 **Agonistas dopaminérgicos no Parkinson** (doses que causam compulsões):
 - Empurram sistema ALÉM do funcionamento normal
@@ -263,7 +263,7 @@ Não cria "supercontrole" artificial. Restaura funcionamento para níveis normai
 - Agonistas em excesso são como superaquecer um motor (opera fora de especificação, dano potencial)
 - Metilfenidato no TDAH é como adicionar óleo a um motor que estava rangendo (restaura função normal)
 
-## 2.5 Implicação Filosófica
+### 2.5 Implicação Filosófica
 
 O contraste é revelador:
 
@@ -274,9 +274,9 @@ Logo, química não "determina" comportamento unidirecionalmente. Química modul
 
 A questão não é "química cerebral determina comportamento?" (às vezes sim, às vezes não), mas **"quando química ultrapassa limiares que colapsam flexibilidade em rigidez?"**
 
-# 3. Bloqueio Farmacológico: Criando TDAH Artificial
+## 3. Bloqueio Farmacológico: Criando TDAH Artificial
 
-## 3.1 Experimentos com Ioimbina em Primatas
+### 3.1 Experimentos com Ioimbina em Primatas
 
 Amy Arnsten e colegas demonstraram que bloquear receptores α2-adrenérgicos no córtex pré-frontal de macacos com ioimbina (antagonista α2) produz perfil comportamental similar ao TDAH [@arnsten2009toward]:
 
@@ -287,7 +287,7 @@ Amy Arnsten e colegas demonstraram que bloquear receptores α2-adrenérgicos no 
 
 **Reversão**: Estimulação α2 com guanfacina reverte estes déficits.
 
-## 3.2 Mensagem: Química Pode Induzir Disfunção
+### 3.2 Mensagem: Química Pode Induzir Disfunção
 
 Este experimento demonstra que manipulação farmacológica pode:
 - **Criar** disfunção onde não existia
@@ -296,13 +296,13 @@ Este experimento demonstra que manipulação farmacológica pode:
 
 **Mas novamente**: Isto é PATOLÓGICO. É empurrar sistema para regime disfuncional.
 
-# 4. Transtornos de Controle de Impulsos: Biologia Ultrapassando Limiares
+## 4. Transtornos de Controle de Impulsos: Biologia Ultrapassando Limiares
 
-## 4.1 Reinterpretando Transtornos de Impulso
+### 4.1 Reinterpretando Transtornos de Impulso
 
 Agora podemos reinterpretar transtornos como jogo patológico, cleptomania, tricotilomania não como "prova de que livre arbítrio é ilusão", mas como **condições onde biologia ultrapassou limiares que colapsam flexibilidade**.
 
-### 4.1.1 Jogo Patológico
+#### 4.1.1 Jogo Patológico
 
 **Características** [@american2013diagnostic]:
 - Preocupação persistente com jogo
@@ -319,7 +319,7 @@ Agora podemos reinterpretar transtornos como jogo patológico, cleptomania, tric
 
 **Alterações são similares às observadas em dependências químicas** - levando à reclassificação no DSM-5 como "transtorno relacionado a substâncias e aditivos".
 
-### 4.1.2 Tricotilomania (Arrancar Cabelos)
+#### 4.1.2 Tricotilomania (Arrancar Cabelos)
 
 **Apresentação**: Impulso recorrente de arrancar próprios cabelos, causando perda capilar notável, precedido por tensão crescente e seguido por alívio [@stein2010trichotillomania].
 
@@ -330,13 +330,13 @@ Agora podemos reinterpretar transtornos como jogo patológico, cleptomania, tric
 
 **Tratamento**: Terapia de reversão de hábitos (intervenção comportamental) + N-acetilcisteína (modula glutamato)
 
-### 4.1.3 Cleptomania
+#### 4.1.3 Cleptomania
 
 **Apresentação**: Impulsos recorrentes de roubar objetos desnecessários, precedidos por tensão, seguidos por prazer/alívio [@grant2006understanding].
 
 **Neurobiologia**: Dados limitados, mas sugere disfunção serotoninérgica e possível relação com espectro obsessivo-compulsivo.
 
-## 4.2 O Padrão Comum
+### 4.2 O Padrão Comum
 
 Estes transtornos compartilham:
 
@@ -359,7 +359,7 @@ Estes transtornos compartilham:
 - Estriado (hábitos, recompensa)
 - Córtex cingulado anterior (monitoramento de conflito)
 
-## 4.3 Reframing: Não "Ausência de Livre Arbítrio", Mas "Perda de Flexibilidade"
+### 4.3 Reframing: Não "Ausência de Livre Arbítrio", Mas "Perda de Flexibilidade"
 
 **Interpretação tradicional**: "Estes transtornos provam que livre arbítrio é ilusão - as pessoas 'não conseguem escolher' parar"
 
@@ -374,11 +374,11 @@ Estes transtornos compartilham:
 - Nem todos têm transtornos de impulso (se ausência de livre arbítrio fosse universal, todos teriam)
 - Há transição qualitativa entre "dificuldade ocasional em resistir impulsos" (normal) e "incapacidade persistente" (patológico)
 
-# 5. Além dos Impulsos: Química e Crenças Sociopolíticas
+## 5. Além dos Impulsos: Química e Crenças Sociopolíticas
 
 Até aqui, este capítulo concentrou-se em como a química pode determinar ou modular **impulsos e funções executivas**: a compulsão de jogar, o controle inibitório, a capacidade de sustentar atenção. Uma observação publicada por de Wit e colegas em 2021 abre uma terceira dimensão: química pode tocar também **convicções e valores** [@deWit2021]. 
 
-## 5.1 O Caso
+### 5.1 O Caso
 
 Em um estudo conduzido na Universidade de Chicago examinando efeitos da MDMA (3,4-metilenodioximetanfetamina) sobre toque afetivo em voluntários sadios, os participantes recebiam, em condição duplo-cega, ou MDMA, ou um estimulante de outra classe, ou placebo — sem expectativa específica sobre qual receberiam. Entre eles, um homem envolvido com uma organização supremacista branca, recém-exposto publicamente na internet. Havia perdido o emprego, sofria de ataques de pânico e ruminava sobre seu futuro e suas convicções.
 
@@ -390,7 +390,7 @@ Em entrevista oito meses depois, descreveu assim sua experiência:
 
 A repercussão prática foi imediata: contatou os antifascistas que o haviam exposto, iniciou diálogo, manteve correspondência ao longo de meses. Iniciou terapia. Oito meses depois, ele próprio reconhecia que a mudança não estava completa — que sustentar essas novas posições no cotidiano exigia esforço contínuo. Em suas palavras: "não dá pra simplesmente apertar um interruptor e dizer, eu não tenho mais essas crenças."
 
-## 5.2 Mecanismos Plausíveis
+### 5.2 Mecanismos Plausíveis
 
 A MDMA opera em um espectro neuroquímico mais amplo do que os agonistas dopaminérgicos discutidos na seção 1. Três sistemas estão centralmente envolvidos:
 
@@ -402,7 +402,7 @@ A MDMA opera em um espectro neuroquímico mais amplo do que os agonistas dopamin
 
 Esta convergência multissistêmica é importante. Enquanto os transtornos de impulso induzidos por agonistas dopaminérgicos representam uma intervenção neuroquímica relativamente unidimensional (estimulação D2/D3 excessiva), os efeitos da MDMA sobre estados afetivos e relacionais envolvem uma reconfiguração temporária de múltiplos sistemas que sustentam, em condições normais, a forma como o sujeito processa pertencimento, ameaça e proximidade interpessoal.
 
-## 5.3 O Que o Caso *Não* Demonstra
+### 5.3 O Que o Caso *Não* Demonstra
 
 Os próprios autores são explicitamente cautelosos sobre o que esta observação permite afirmar, e a leitura do material exige a mesma cautela:
 
@@ -416,7 +416,7 @@ Os próprios autores são explicitamente cautelosos sobre o que esta observaçã
 
 **5. Trata-se de modulação de afetos sociais, não de "correção" de ideologia.** A MDMA não inseriu valores liberais no lugar de valores supremacistas. Ela produziu uma fenomenologia aguda de conexão interpessoal que, no contexto biográfico daquele sujeito específico, abalou crenças sustentadas em parte por emoções de raiva, medo e isolamento.
 
-## 5.4 O Que o Caso Sugere
+### 5.4 O Que o Caso Sugere
 
 Ainda com todos esses caveats, a observação levanta uma questão genuína: **se uma única intervenção farmacológica pode fissurar convicções políticas profundas, isto diz algo sobre como tais convicções são originalmente sustentadas**.
 
@@ -424,7 +424,7 @@ A leitura tradicional de crenças sociopolíticas as concebe como produtos de ra
 
 Isso é coerente com a ideia de que agência, vontade e mesmo crenças estabilizam-se sobre um substrato biológico dinâmico, não sobre um eu racional desencarnado. Modular o substrato é modular o que dele emerge — incluindo posições políticas e morais que o sujeito experiencia como genuinamente suas.
 
-## 5.5 Implicações Éticas
+### 5.5 Implicações Éticas
 
 A discussão não pode terminar sem registrar o desconforto ético que esta possibilidade gera. Se intervenções farmacológicas podem, ainda que parcialmente, modificar convicções políticas extremas, surgem perguntas que este livro não pretende resolver mas precisa registrar:
 
@@ -435,9 +435,9 @@ A discussão não pode terminar sem registrar o desconforto ético que esta poss
 
 Estas questões serão retomadas no capítulo de Conclusão. Aqui basta registrar: a evidência de que biologia modula valores não é equivalente a uma autorização para "tratar" valores farmacologicamente. A distância entre o que é possível e o que é desejável é o terreno próprio da ética — terreno que não se contorna invocando a neurobiologia.
 
-# 6. Terceira Conclusão Parcial: Limiares e Regimes
+## 6. Terceira Conclusão Parcial: Limiares e Regimes
 
-## 6.1 Síntese do Capítulo
+### 6.1 Síntese do Capítulo
 
 Vimos três categorias de fenômenos:
 
@@ -456,7 +456,7 @@ Vimos três categorias de fenômenos:
 - Controle é prejudicado
 - Graus de liberdade são REDUZIDOS
 
-## 6.2 A Noção de Limiares
+### 6.2 A Noção de Limiares
 
 Sistemas caóticos têm **limiares** - pontos onde pequenas mudanças causam transições qualitativas entre regimes de operação.
 
@@ -477,7 +477,7 @@ REGIME DISFUNCIONAL 1          REGIME NORMAL          REGIME DISFUNCIONAL 2
 - Restaurar sistema para RANGE NORMAL (metilfenidato no TDAH)
 - Empurrar sistema através de LIMIAR 2 (agonistas → compulsão)
 
-## 6.3 Implicação: Determinação é Estado, Não Essência
+### 6.3 Implicação: Determinação é Estado, Não Essência
 
 **Conclusão crucial**: Determinação biológica do comportamento não é propriedade essencial do cérebro, mas **estado** em que cérebro pode entrar quando empurrado para regimes patológicos.
 
@@ -485,7 +485,7 @@ REGIME DISFUNCIONAL 1          REGIME NORMAL          REGIME DISFUNCIONAL 2
 
 **Em regime patológico**: Química determina. Sistema perde flexibilidade, colapsa em rigidez, comportamento torna-se compulsivo.
 
-## 6.4 Resposta à Objeção: "Mas Onde Está a Linha?"
+### 6.4 Resposta à Objeção: "Mas Onde Está a Linha?"
 
 **Objeção**: "Se é continuum, não há linha clara entre normal e patológico. Logo, todos somos 'um pouco determinados', e distinção colapsa."
 
@@ -502,7 +502,7 @@ Similarmente:
 - TDAH não tratado vs. tratado: diferença qualitativa em controle
 - Parkinson sem agonistas vs. com agonistas em excesso: diferença qualitativa em compulsividade
 
-## 6.5 O Próximo Passo: Lesões Físicas
+### 6.5 O Próximo Passo: Lesões Físicas
 
 Até agora vimos:
 - Processos inconscientes (Cap. 1)

@@ -33,11 +33,6 @@ references/_PDFs/**/*.pdf
 # Permanecem no disco do autor como referência pessoal.
 old files/
 
-# .md soltos no TOPO de atividades/ = handoffs/notas transitórias (ex.: _PROMPT-*).
-# Ficam fora do git. A regra é de 1 nível (não pega subpastas): a documentação de
-# design VERSIONADA vive em atividades/_specs/ (SPEC-*, TEXT-*, DESIGN.md, FENOMENOS.md)
-# — essa SIM entra no git, mas NÃO no site (resources só publica *.html + lib/).
-atividades/*.md
 
 # R and RStudio
 .Rproj.user

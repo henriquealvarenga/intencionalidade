@@ -26,6 +26,8 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18   # fixa a versão: o comportamento de livros muda entre versões
 
       # Descomente o bloco abaixo se algum .qmd usar R
       # - name: Set up R

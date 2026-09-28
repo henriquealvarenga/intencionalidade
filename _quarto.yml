@@ -1,21 +1,16 @@
 project:
-  type: website
+  type: book
   output-dir: docs
-  # Renderiza SÓ os .qmd (todo o conteúdo do livro é .qmd — convenção do projeto).
-  # Sem isso, o Quarto transformaria qualquer .md largado em atividades/ (specs,
-  # planejamento) numa página .html pública. As atividades .html entram como
-  # resources (copiadas), não como render.
-  render:
-    - "*.qmd"
-    - "**/*.qmd"
+  # Num livro, o Quarto renderiza SÓ o que está em book.chapters/appendices (mais
+  # os links em lista do page-footer, como about.qmd). Não há `render:` aqui: ele
+  # seria ignorado. Página nova = entrada nova em chapters/appendices.
   resources:
     - fonts/
-    # Atividades interativas (HTML/JS puro, fora do fluxo .qmd). Publicamos só o
-    # APP — páginas .html + JS compartilhado em lib/ — e NÃO o glob amplo: assim
-    # specs/planejamento (.md) largados em atividades/ nunca vazam para o site.
-    # NÃO inclui supabase/ (infra).
-    - atividades/*.html
-    - atividades/lib/
+
+# Idioma no nível de PROJETO: os rótulos gerados pelo livro (a seção "Apêndices"
+# da barra lateral, "Capítulo", "Apêndice A —") vêm da config do projeto, não
+# do _metadata.yml.
+lang: pt-BR
 
 # Bibliografia e estilo de citação — nível de PROJETO.
 # Definidos aqui (e não no _metadata.yml) para que o caminho seja resolvido
@@ -24,10 +19,22 @@ project:
 bibliography: references/references.bib
 csl: references/csl_styles/ABNT.csl
 
-website:
+book:
   title: "Intencionalidade, Vontade, Impulsividade e Livre Arbítrio"
+  subtitle: "Uma jornada entre neurociência, psiquiatria e filosofia"
+  # Autor, data e descrição aparecem SÓ na capa (index); os capítulos mostram
+  # apenas o próprio título.
+  author: "Henrique Alvarenga da Silva"
+  # Data da última edição do TEXTO (não do deploy): 19/06/2026. Atualize só
+  # quando o conteúdo mudar — ajustes de layout/infra não mudam a data.
+  date: "2026-06-19"
+  description: "Como compreender a agência humana sem reduzi-la a um fantasma metafísico nem dissolvê-la em mecanismos cegos? A pergunta tradicional — somos ou não determinados? — revela-se insuficiente. A experiência clínica e a reflexão filosófica mostram algo mais complexo: uma capacidade de agir que se estrutura, se mantém, se articula — e que pode falhar de modos diversos."
+  # Versão web da capa (JPEG 800px). O original em alta (images/cover.png) fica
+  # versionado para a futura edição com ISBN; como não é referenciado, não é publicado.
+  cover-image: images/cover.jpg
+  cover-image-alt: "Capa do livro: título em serifa clara sobre fundo azul-escuro, com linhas finas que convergem e se ramificam; uma delas, dourada, termina num ponto luminoso."
   # O caminho precisa estar embutido no site-url: o Quarto ignora site-path ao
-  # montar o sitemap e o robots.txt, e sem isso os 34 endereços do subsite eram
+  # montar o sitemap e o robots.txt, e sem isso os endereços do subsite eram
   # declarados na RAIZ do domínio (todos 404), poluindo a propriedade principal
   # no Search Console.
   site-url: "https://henriquealvarenga.com/intencionalidade"
@@ -35,105 +42,88 @@ website:
   favicon: favicon.ico
   bread-crumbs: false
 
+  # Navbar minimalista: só o título do livro + o ícone de busca.
   navbar:
     background: primary
-    # Navbar minimalista: título do site (vem de website.title) + um único link
-    # "Atividades", visível em todas as páginas, para quem navega pelo livro
-    # achar a atividade interativa. O sidebar segue listando os capítulos; a
-    # busca aparece como ícone no navbar (habilitada em sidebar.search abaixo).
-    # O alvo é um resource HTML/JS puro (atividades/**), não um .qmd.
-    right:
-      # Decks de abertura (revealjs). Alvo é .qmd renderizado para .html —
-      # o Quarto resolve o href .qmd → .html. Páginas fullscreen, sem navbar.
-      - text: "Apresentação"
-        menu:
-          - text: "1 · Intencionalidade & Autogoverno"
-            href: apresentacao/keynote1.qmd
-          - text: "2 · Você escolhe o que faz? (Continuum)"
-            href: apresentacao/keynote2.qmd
-      # Um link único para o HUB das atividades (substitui o dropdown de 5 links).
-      # O hub é o portão de identidade: aula (campeonato) ou treino (livre).
-      - text: "Atividades"
-        href: atividades/index.html
-      # Painel do professor: à parte (login por email; URL direta para o professor).
-      - text: "Painel do professor"
-        href: atividades/painel.html
 
   sidebar:
     style: "docked"
     search: true
-    contents:
-      - section: "Início"
-        contents:
-          - text: "Prefácio"
-            href: index.qmd
-      - section: "Capítulos"
-        contents:
-          - text: "Introdução"
-            href: capitulos/1.0-introducao.qmd
-          - text: "Da liberdade à Coordenação"
-            href: capitulos/1.1-liberdade-coordenacao.qmd
-          - text: "Vontade"
-            href: capitulos/1.2-vontade.qmd
-          - text: "De Tomás de Aquino a Davidson"
-            href: capitulos/1.3-davidson.qmd
-          - text: "Intencionalidade"
-            href: capitulos/1.4-intencionalidade-pratica.qmd
-          - text: "Autogoverno"
-            href: capitulos/1.5-autogoverno.qmd
-          - text: "Impulsividade"
-            href: capitulos/1.6-impulsividade.qmd
-          - text: "Graus de Liberdade"
-            href: capitulos/1.7-graus-de-liberdade.qmd
-          - text: "Neuroquimica"
-            href: capitulos/1.8-neuroquimica.qmd
-          - text: "Conclusão"
-            href: capitulos/1.9-conclusao.qmd
-      - section: "Casos"
-        contents:
-          - text: "Casos"
-            href: casos/5.0-casos_clinicos.qmd
-          - text: "Lobotmia"
-            href: casos/5.1-lobotomia.qmd
-          - text: "Agressividade"
-            href: casos/5.2-agressividade.qmd
-          - text: "Pedofilia"
-            href: casos/5.3-pedofilia.qmd
-          - text: "Hipersexualidade"
-            href: casos/5.4-hipersexualidade.qmd
-          - text: "Cleptomania"
-            href: casos/5.5-cleptomania.qmd
-          - text: "TOC"
-            href: casos/5.6-toc.qmd
-          - text: "Tricotilomania"
-            href: casos/5.7-tricotilomania.qmd
-          - text: "Phineas Gage"
-            href: casos/5.8-phineas-gage.qmd
-          - text: "Charles Whitman"
-            href: casos/5.9-charles-whitman.qmd
-          - text: "Mão Alienígena"
-            href: casos/5.10-mao-alienigena.qmd
-          - text: "Kenneth Parks"
-            href: casos/5.11-sonambulismo-homicida.qmd
-          - text: "Paciente SM"
-            href: casos/5.12-paciente-sm-amigdala.qmd
-          - text: "EVR / Elliott"
-            href: casos/5.13-evr-marcador-somatico.qmd
-      - section: "Apêndices"
-        contents:
-          - text: "Sistemas Dinâmicos"
-            href: apendices/10.1-sistemas-dinamicos.qmd
-          - text: "Vontade nas Tradições Religiosas"
-            href: apendices/10.2-apendice-vontade-religioes.qmd
-          - text: "Glossário"
-            href: apendices/10.3-glossario.qmd
-          - text: "Neuroquímica (versão detalhada)"
-            href: apendices/10.4-apendice-neuroquimica-detalhada.qmd
+
+  # A barra lateral é gerada daqui. A forma href + text mantém rótulos curtos
+  # (os títulos completos dos casos continuam no topo de cada página).
+  chapters:
+    - index.qmd
+    - part: "Fundamentos"
+      chapters:
+        - href: capitulos/1.0-introducao.qmd
+          text: "Introdução"
+        - href: capitulos/1.1-liberdade-coordenacao.qmd
+          text: "Da Liberdade à Coordenação"
+        - href: capitulos/1.2-vontade.qmd
+          text: "Vontade"
+        - href: capitulos/1.3-davidson.qmd
+          text: "De Tomás de Aquino a Davidson"
+        - href: capitulos/1.4-intencionalidade-pratica.qmd
+          text: "Intencionalidade"
+        - href: capitulos/1.5-autogoverno.qmd
+          text: "Autogoverno"
+        - href: capitulos/1.6-impulsividade.qmd
+          text: "Impulsividade"
+        - href: capitulos/1.7-graus-de-liberdade.qmd
+          text: "Graus de Liberdade"
+        - href: capitulos/1.8-neuroquimica.qmd
+          text: "Neuroquímica"
+        - href: capitulos/1.9-conclusao.qmd
+          text: "Conclusão"
+    # A página 5.0 abre a Parte II (não numerada) e dá nome à seção na barra lateral.
+    - part: casos/5.0-casos_clinicos.qmd
+      chapters:
+        - href: casos/5.1-lobotomia.qmd
+          text: "Lobotomia"
+        - href: casos/5.2-agressividade.qmd
+          text: "Agressividade"
+        - href: casos/5.3-pedofilia.qmd
+          text: "Pedofilia"
+        - href: casos/5.4-hipersexualidade.qmd
+          text: "Hipersexualidade"
+        - href: casos/5.5-cleptomania.qmd
+          text: "Cleptomania"
+        - href: casos/5.6-toc.qmd
+          text: "TOC"
+        - href: casos/5.7-tricotilomania.qmd
+          text: "Tricotilomania"
+        - href: casos/5.8-phineas-gage.qmd
+          text: "Phineas Gage"
+        - href: casos/5.9-charles-whitman.qmd
+          text: "Charles Whitman"
+        - href: casos/5.10-mao-alienigena.qmd
+          text: "Mão Alienígena"
+        - href: casos/5.11-sonambulismo-homicida.qmd
+          text: "Kenneth Parks"
+        - href: casos/5.12-paciente-sm-amigdala.qmd
+          text: "Paciente SM"
+        - href: casos/5.13-evr-marcador-somatico.qmd
+          text: "EVR / Elliott"
+    - referencias.qmd
+
+  # Apêndices: numerados com letras (Apêndice A, B, C, D).
+  appendices:
+    - href: apendices/10.1-sistemas-dinamicos.qmd
+      text: "Sistemas Dinâmicos"
+    - href: apendices/10.2-apendice-vontade-religioes.qmd
+      text: "Vontade nas Tradições Religiosas"
+    - href: apendices/10.3-glossario.qmd
+      text: "Glossário"
+    - href: apendices/10.4-apendice-neuroquimica-detalhada.qmd
+      text: "Neuroquímica (versão detalhada)"
 
   page-footer:
     left: |
       Dr. Henrique Alvarenga da Silva · Médico Psiquiatra · CRM-MG 31.778 · RQE 8381<br>
       [henriquealvarenga.com](https://henriquealvarenga.com)
+    # Item em LISTA (não string): é isso que faz o livro renderizar about.qmd,
+    # que não é capítulo.
     center:
       - text: "Créditos"
         href: about.qmd
@@ -152,7 +142,10 @@ format:
     toc: true
     toc-depth: 3
     toc-location: right
-    number-sections: false
+    # Só os capítulos são numerados (Capítulo 1…24, Apêndice A…D). As seções
+    # internas não: 1.8 e 10.4 já trazem numeração manual ("1.1 …"), e o h2 do
+    # tema editorial é um rótulo pequeno em caixa-alta.
+    number-depth: 1
     code-fold: true
     code-tools: false
     smooth-scroll: true

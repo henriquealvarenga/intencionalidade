@@ -2,56 +2,35 @@
 
 Material educacional em neuropsiquiatria que explora intencionalidade, impulsividade, vontade, tomada de decisão e a questão do livre arbítrio. Direcionado a estudantes de medicina e psiquiatria, integra questões filosóficas, neurobiológicas e clínicas.
 
-Site publicado em: <https://henriquealvarenga.com/intencionalidade>
+Livro (Quarto Book, HTML) publicado em: <https://henriquealvarenga.com/intencionalidade>
+
+As atividades interativas e as apresentações ficam em outro repositório: [`intencionalidade-atividades`](https://github.com/henriquealvarenga/intencionalidade-atividades).
 
 ## Estrutura do projeto
 
 ```
 Intencionalidade_Project/
-├── _quarto.yml                          # Configuração principal do Quarto (website)
-├── _metadata.yml                        # Metadados e bibliografia
-├── theme-editorial.scss                 # Tema editorial (Sass) — paper, Playfair, brand laranja
-├── styles.css                           # CSS pós-processamento + @font-face das fontes self-hosted
+├── _quarto.yml                  # Configuração do livro (book: capa, capítulos, apêndices, rodapé)
+├── _metadata.yml                # Opções de citação
+├── theme-editorial.scss         # Tema editorial (Sass) — paper, Playfair, brand laranja
+├── styles.css                   # CSS pós-processamento + @font-face das fontes self-hosted
 │
-├── index.qmd                            # Landing page (hero + Prefácio + CTA para Introdução)
-├── about.qmd                            # Créditos: autor, metodologia, licença, citação sugerida
+├── index.qmd                    # Capa + Prefácio
+├── about.qmd                    # Créditos: autor, metodologia, licença, citação sugerida
+├── referencias.qmd              # Referências bibliográficas
 │
-├── 1.0-introducao.qmd                   # Introdução
-├── 1.1-liberdade-coordenação.qmd        # Da liberdade à coordenação
-├── 1.2-vontade.qmd                      # Vontade
-├── 1.3-davidson.qmd                     # De Tomás de Aquino a Davidson
-├── 1.4-intencionalidade-pratica.qmd     # Intencionalidade
-├── 1.5-autogoverno.qmd                  # Autogoverno
-├── 1.6-impulsividade.qmd                # Impulsividade
-├── 1.7-graus-de-liberdade.qmd           # Graus de liberdade
-├── 1.8-neuroquimica.qmd                 # Neuroquímica
-├── 1.9-conclusao.qmd                    # Conclusão
+├── capitulos/                   # Parte I — Fundamentos (capítulos 1–10: 1.0 a 1.9)
+├── casos/                       # Parte II — Casos Clínicos (5.0 abre a parte; capítulos 11–23)
+├── apendices/                   # Apêndices A–D (10.1 a 10.4)
 │
-├── 5.0-casos_clinicos.qmd               # Casos clínicos (índice)
-├── 5.1-lobotomia.qmd                    # Lobotomia
-├── 5.2-agressividade.qmd                # Agressividade
-├── 5.3-pedofilia.qmd                    # Pedofilia
-├── 5.4-hipersexualidade.qmd             # Hipersexualidade
-├── 5.5-cleptomania.qmd                  # Cleptomania
-├── 5.6-toc.qmd                          # TOC
-├── 5.7-tricotilomania.qmd               # Tricotilomania
+├── images/                      # Capa: cover.jpg (web) e cover.png (original em alta)
+├── fonts/                       # Fontes self-hosted (WOFF2): Playfair, Inter, JetBrains Mono
+├── _includes/                   # Trechos injetados no <head> (JSON-LD do autor, ajuste do rodapé)
+├── PDF_version/                 # Versão PDF antiga do conteúdo
+├── references/                  # Bibliografia (references.bib) e estilos de citação (ABNT, Vancouver)
 │
-├── 10.0-apendices.qmd                   # Apêndices (índice)
-├── 10.1-sistemas-dinamicos.qmd          # Sistemas dinâmicos
-├── 10.2-apendice-vontade-religioes.qmd  # Vontade nas tradições religiosas
-├── 10.3-glossario.qmd                   # Glossário
-├── referencias.qmd                      # Referências
-│
-├── fonts/                               # Fontes self-hosted (WOFF2): Playfair, Inter, JetBrains Mono
-├── images/                              # Imagens usadas no site
-├── PDF_version/                         # Versão PDF do conteúdo
-├── old files/                           # Arquivos antigos / backup
-├── references/                          # Bibliografia e estilos de citação
-│   ├── referencias.bib                  # BibTeX
-│   └── csl_styles/                      # ABNT, Vancouver
-│
-├── .github/workflows/publish.yml        # Publicação automática (GitHub Actions)
-├── .gitignore
+├── .github/workflows/publish.yml  # Publicação automática (GitHub Actions)
+├── AGENTS.md                    # Notas para agentes (CLAUDE.md aponta para ele)
 └── README.md
 ```
 

@@ -9,21 +9,9 @@
 #   bibliography: references/references.bib
 #   csl: references/csl_styles/ABNT.csl
 
-# Configurações de linguagem
-lang: pt-BR
-
-# Autor padrão — comentado intencionalmente.
-# Quando ativo, o Quarto injetava AUTOR/AFILIAÇÃO no título block de TODAS
-# as páginas, poluindo a leitura num livro de capítulo único. A informação
-# de autoria fica concentrada em about.qmd (página "Créditos"). Se você
-# quiser exibir autor em uma página específica, basta declarar no YAML
-# daquela página.
-#
-# author:
-#   - name: "Henrique Alvarenga da Silva"
-#     affiliation: "Universidade Federal de São João del-Rei (UFSJ)"
-#     email: "henriquealvarenga@ufsj.edu.br"
-#     orcid: "0000-0001-9799-5240"
+# Idioma (lang) e autor ficam no _quarto.yml: lang no nível de projeto (rótulos
+# gerados pelo livro) e author em book: (aparece só na capa). Não declarar
+# author: aqui — poluiria o título de TODAS as páginas.
 
 # Configurações de citação
 citation: false

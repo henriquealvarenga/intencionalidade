@@ -491,6 +491,17 @@ footer.nav-footer {
   margin-top: 0.8rem;
 }
 
+// Descrição do livro (book.description) — só aparece na capa (index).
+// Mesmo tratamento do antigo "lede" do hero: serifa itálica, tom secundário.
+.quarto-title-block .description {
+  font-family: $font-family-serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  line-height: 1.55;
+  color: $text-secondary;
+  margin: 1.2rem 0 1.5rem 0;
+}
+
 // =========================================================================
 // Componentes em uso
 // =========================================================================
@@ -513,29 +524,6 @@ footer.nav-footer {
 .topic-badge:hover {
   color: #ffffff;
   border-bottom: none;
-}
-
-// Eyebrow — usado no index
-.eyebrow {
-  display: inline-block;
-  font-size: 0.62rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: $text-muted;
-  margin-bottom: 0.8rem;
-  font-family: $font-family-sans-serif;
-}
-
-// Lede — primeiro parágrafo destacado
-.lede {
-  font-family: $font-family-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 1.15rem;
-  line-height: 1.55;
-  color: $text-secondary;
-  margin: 1.5rem 0 2.5rem 0;
 }
 
 // Sumário — lista numerada com tabular nums (caso usemos no futuro)
@@ -633,75 +621,6 @@ footer.nav-footer {
 // Utilitários
 .muted  { color: $text-muted; font-size: 0.9em; }
 .accent { color: $brand; }
-
-// =========================================================================
-// Hero da landing page (index.qmd)
-// =========================================================================
-.hero {
-  padding: 1rem 0 3rem 0;
-  border-bottom: 1px solid $border-color;
-  margin-bottom: 3rem;
-}
-
-.hero .eyebrow {
-  margin-bottom: 1.2rem;
-}
-
-.hero h1, .hero .hero-title {
-  font-family: $font-family-serif;
-  font-weight: 300;
-  font-size: clamp(2.6rem, 6vw, 4.2rem);
-  line-height: 0.98;
-  letter-spacing: -0.025em;
-  color: $text-primary;
-  margin: 0 0 0.6rem 0;
-}
-
-.hero .hero-subtitle {
-  font-family: $font-family-serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: clamp(1.15rem, 2.2vw, 1.5rem);
-  color: $text-secondary;
-  line-height: 1.4;
-  margin: 0 0 2rem 0;
-}
-
-.hero .lede {
-  margin: 0;
-  max-width: 720px;
-}
-
-// CTA inferior da landing — botão "Começar a leitura"
-.cta-block {
-  margin: 3.5rem 0 1rem 0;
-  padding-top: 2rem;
-  border-top: 1px solid $border-color;
-  text-align: center;
-}
-
-.cta-block .btn-read {
-  display: inline-block;
-  background: $brand;
-  color: #ffffff !important;
-  font-family: $font-family-sans-serif;
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  padding: 0.85rem 2rem;
-  border: 1px solid $brand;
-  border-radius: 2px;
-  text-decoration: none;
-  transition: background 0.12s ease, color 0.12s ease;
-}
-
-.cta-block .btn-read:hover {
-  background: $brand-dark;
-  border-color: $brand-dark;
-  color: #ffffff !important;
-  border-bottom: 1px solid $brand-dark;
-}
 
 // =========================================================================
 // About page — contact-links, about-section, tech-stack, tech-item
@@ -842,7 +761,10 @@ div#refs {
 // =========================================================================
 // Imagens e figuras
 // =========================================================================
-.content img {
+// :where() zera a especificidade do contêiner: esta é a regra GENÉRICA de
+// imagem e não deve vencer regras de componentes do Quarto (ex.: a capa do
+// livro, .quarto-cover-image { max-width: 35%; float: right }).
+:where(.content) img {
   max-width: 100%;
   height: auto;
   border-radius: 2px;
@@ -935,6 +857,5 @@ figcaption, .figure-caption {
 @media (max-width: 768px) {
   .quarto-title h1.title,
   h1.title { font-size: 2rem; }
-  .hero h1 { font-size: 2.2rem; }
   body { font-size: 0.95rem; }
 }

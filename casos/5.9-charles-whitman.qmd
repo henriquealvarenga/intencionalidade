@@ -28,7 +28,7 @@ Três cuidados são necessários ao usar o caso em discussão pedagógica. Prime
 
 2. Se o tumor "contribuiu mas não determinou", como atribuir responsabilidade? Existe uma metodologia razoável para essa partição, ou ela é estrutural e necessariamente impossível?
 
-3. Compare com o caso da pedofilia adquirida por tumor frontal (capítulo 5.3). Por que aquele caso costuma gerar consenso mais claro sobre redução de responsabilidade do que o caso Whitman?
+3. Compare com o [caso da pedofilia adquirida por tumor frontal](5.3-pedofilia.qmd). Por que aquele caso costuma gerar consenso mais claro sobre redução de responsabilidade do que o caso Whitman?
 
 4. A Comissão Connally optou por uma formulação cautelosa ("poderia ter contribuído"). Argumente a favor e contra essa formulação do ponto de vista médico-legal. Que outra formulação você proporia?
 

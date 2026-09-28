@@ -20,34 +20,40 @@ Este arquivo é lido automaticamente por agentes Claude que trabalham nesse repo
 
 ## Contexto técnico do projeto
 
-- **Tipo:** Quarto website (`type: website`, `output-dir: docs`)
+- **Tipo:** Quarto Book, só HTML (`type: book`, `output-dir: docs`). Publicado em <https://henriquealvarenga.com/intencionalidade/>. Sem ISBN por enquanto (previsto para depois da revisão).
+- **Só renderiza o que está no `_quarto.yml`:** `book.chapters` / `book.appendices` (mais os links em lista do `page-footer`, como `about.qmd`). Página nova = entrada nova lá, senão ela não é gerada.
 - **Tema:** editorial puro (`theme-editorial.scss`), sem Bootswatch (cosmo). Paleta paper off-white com acento laranja queimado (`#b45309`), tipografia Playfair Display serif + Inter sans + JetBrains Mono.
 - **Fontes:** self-hosted em `fonts/` (WOFF2). Não usar CDN do Google Fonts.
 - **Publicação:** GitHub Actions (`.github/workflows/publish.yml`), Pages nativo. `docs/` não é versionado (gerado no CI).
 - **Sem código executável.** Markdown puro nos `.qmd`. Não há chunks `{r}` ou `{python}`. Estratégia de CI simples — sem `_freeze/`.
-- **Landing page:** `index.qmd` é a página de entrada (hero + Prefácio + CTA "Começar a leitura"). Usa `pagetitle:` em vez de `title:` no YAML pra suprimir o título block do Quarto.
+- **Capa (index):** título, subtítulo, autor, data, descrição e imagem (`images/cover.jpg`) vêm de `book:` no `_quarto.yml` e só aparecem no `index.qmd`, que contém o Prefácio (`# Prefácio {.unnumbered}`). `images/cover.png` é o original em alta, versionado e não publicado.
+- **Data do livro (`book.date`):** data da última edição do **texto** (hoje 19/06/2026), não do deploy. Mudou conteúdo → atualizar `book.date` e a linha "Última atualização" de `about.qmd`. Ajuste de layout/infra não muda a data.
 - **Créditos:** `about.qmd`, linkado no footer (texto "Créditos").
 
 ## Convenções do projeto
 
-- **Autoria:** centralizada em `about.qmd`. Não declarar `author:` no `_metadata.yml` global — polui o título block de todas as páginas. Se for necessário em uma página específica, declarar no YAML daquela página.
-- **Stubs / capítulos não escritos:** arquivo contém uma única linha `# Em construção`, sem YAML title. Visual obviamente incompleto, evita esquecer de voltar.
-- **Cross-references entre seções:** usar IDs com prefixo `sec-` (ex.: `::: {#sec-vontade-religiao}`). Referenciar com `@sec-...`.
+- **Autoria:** `book.author` no `_quarto.yml` (aparece só na capa) + detalhes em `about.qmd`. Não declarar `author:` no `_metadata.yml` nem no topo do `_quarto.yml` — iria para o título de todas as páginas.
+- **Stubs / capítulos não escritos:** título real + uma linha `*Em construção.*` (ex.: `# Impulsividade`). O título é obrigatório: no livro ele vira o nome do capítulo na barra lateral e na numeração.
+- **Numeração:** automática (Capítulo 1–23, Apêndice A–D), só no nível de capítulo (`number-depth: 1`). Não escrever números de capítulo no texto — para citar outro capítulo/caso, use link Markdown para o `.qmd` (ex.: `[caso EVR](5.13-evr-marcador-somatico.qmd)`).
+- **Um título de capítulo por arquivo:** se o título vem do YAML (`title:`), as seções internas começam em `##`. Um `#` no corpo vira outro capítulo.
+- **Âncoras `sec-`:** IDs com prefixo `sec-` (ex.: `{#sec-vontade-religiao}`). As âncoras `#sec-parks`, `#sec-whitman`, `#sec-evr` e `#sec-nomes-do-fenomeno` são usadas pelas atividades (outro repositório) — não renomear sem atualizar lá.
 - **`code-tools` desativado.** Site é livro, não documento técnico.
 - **`bread-crumbs` desativado.** Sidebar já indica posição na hierarquia.
 - **Licença:** CC BY-NC-SA 4.0.
 
 ## Estrutura de arquivos relevante
 
-- `_quarto.yml` — config principal (navbar, sidebar, theme, format)
-- `_metadata.yml` — metadados globais (bibliografia, CSL, lang)
+- `_quarto.yml` — config principal (`book:` com capa, capítulos, apêndices, navbar, rodapé; theme, format, lang, bibliografia)
+- `_metadata.yml` — metadados globais (opções de citação)
 - `theme-editorial.scss` — tema (defaults + rules)
 - `styles.css` — overrides pós-Quarto + `@font-face` self-hosted + variáveis CSS expostas
-- `index.qmd` — landing
+- `index.qmd` — capa + Prefácio
+- `images/` — capa do livro (`cover.jpg` web, `cover.png` original)
 - `about.qmd` — créditos
-- `1.*.qmd` — capítulos principais
-- `5.*.qmd` — casos clínicos
-- `10.*.qmd` — apêndices
+- `capitulos/1.*.qmd` — Parte I, Fundamentos (capítulos 1–10)
+- `casos/5.*.qmd` — Parte II, Casos Clínicos (5.0 abre a parte; capítulos 11–23)
+- `apendices/10.*.qmd` — apêndices A–D
+- `referencias.qmd` — referências (não numerado)
 - `references/references.bib` — bibliografia BibTeX
 - `references/csl_styles/` — estilos de citação (ABNT, Vancouver)
 
@@ -60,32 +66,19 @@ git commit -m "..."
 git push origin main   # GitHub Actions cuida do resto
 ```
 
-## Lições de engenharia (reutilizáveis — valem para os outros sites do autor)
+## Atividades e apresentações
 
-Diário detalhado em `atividades/_specs/ENGENHARIA-modos-campeonato.md`. Antes de mexer
-em áudio, painel ou deploy, leia o checklist (§11) de lá. Armadilhas que já custaram tempo:
+As atividades interativas, o painel do professor (Supabase) e as apresentações (revealjs)
+foram para o repositório `intencionalidade-atividades` em setembro de 2026
+(<https://henriquealvarenga.com/intencionalidade-atividades/>), com histórico preservado.
+As lições de engenharia de áudio, painel, Supabase e deploy moram no `CLAUDE.md` e em
+`atividades/_specs/ENGENHARIA-modos-campeonato.md` de lá. As que valem aqui também:
 
-- **Web Audio mudo no Safari:** nunca use `exponentialRampToValueAtTime` no ganho (o
-  WebKit não aplica → som inaudível, mas o indicador de áudio da aba acende). Use
-  **rampas lineares**; espere o `resume()` (assíncrono) resolver antes de agendar;
-  destrave o `AudioContext` no 1º gesto. (ENGENHARIA §7)
-- **Ordem das abas do painel = ordem dos `<script>`** em `painel.html` (auto-registro
-  via `registrarPainel`). Reordenar UI = reordenar `<script>`, não mexer no JS. (§3)
-- **Uma tela, uma responsabilidade:** não repita o mesmo dado (ex.: placar) numa tela
-  de gabarito *e* numa tela de pódio dedicada. (§4)
 - **Cache de deploy:** no Safari o hard refresh é `Cmd+Option+R` (`Cmd+Shift+R` é Modo
-  Leitura!). Valide deploy com cache-bust (`?cb=`) e conferindo o `headSha` do run. (§8)
-- **Renomear arquivo:** `git mv` + `grep -rn`; atualize referência viva (`rota:`, `href`),
-  preserve registro histórico nas specs. A ordem do fluxo mora num registry, não no nome. (§2)
-- **Identidade compartilhada:** uma chave única de `localStorage` + boot-guard; sem
-  re-login por página. (§5)
-- **Agregar escalas diferentes:** normalize /100 + **clamp**; confira `maxPontos` contra
-  a constante de score real. **Placar revelado rodada a rodada = acumulado progressivo**
-  (corte pela posição no fluxo, não "tudo no banco"). (§6)
-- **Login do painel (Supabase magic link):** o email embutido tem cota baixíssima
-  (`429 over_email_send_rate_limit`) → **custom SMTP** antes de usar com a turma. Login
-  quebrou? Cheque o status do `/auth/v1/otp` (429 = cota, não bug). (§12)
+  Leitura!). Valide deploy com cache-bust (`?cb=`) e conferindo o `headSha` do run.
+- **Renomear arquivo:** `git mv` + `grep -rn`; atualize referência viva (`chapters:`, `href`).
+  Os endereços dos capítulos são públicos (e usados pelas atividades) — evite renomear.
 
 ---
 
-*Última atualização: junho de 2026.*
+*Última atualização: setembro de 2026.*
