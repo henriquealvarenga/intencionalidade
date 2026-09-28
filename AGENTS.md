@@ -27,7 +27,7 @@ Este arquivo é lido automaticamente por agentes Claude que trabalham nesse repo
 - **Publicação:** GitHub Actions (`.github/workflows/publish.yml`), Pages nativo. `docs/` não é versionado (gerado no CI).
 - **Sem código executável.** Markdown puro nos `.qmd`. Não há chunks `{r}` ou `{python}`. Estratégia de CI simples — sem `_freeze/`.
 - **Capa (index):** título, subtítulo, autor, data, descrição e imagem (`images/cover.jpg`) vêm de `book:` no `_quarto.yml` e só aparecem no `index.qmd`, que contém o Prefácio (`# Prefácio {.unnumbered}`). `images/cover.png` é o original em alta, versionado e não publicado.
-- **Data do livro (`book.date`):** data da última edição do **texto** (hoje 19/06/2026), não do deploy. Mudou conteúdo → atualizar `book.date` e a linha "Última atualização" de `about.qmd`. Ajuste de layout/infra não muda a data.
+- **Data do livro (`book.date`):** data da última edição do **texto** (hoje 19/06/2026), não do deploy. Mudou conteúdo → atualizar `book.date` e a linha "Última atualização" de `about.qmd`. Ajustes de layout, infra, estrutura ou de referências/navegação (ex.: números de capítulo desatualizados) não mudam a data — decisão do autor em 28/09/2026.
 - **Créditos:** `about.qmd`, linkado no footer (texto "Créditos").
 
 ## Convenções do projeto

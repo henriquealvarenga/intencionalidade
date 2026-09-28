@@ -9,8 +9,8 @@ subtitle: "Farmacologia, Impulsos e Perda de Flexibilidade"
 ## Introdução
 
 Nos capítulos anteriores, vimos que:
-- Consciência chega "tarde", mas isso não implica determinismo (Cap. 1)
-- Vontade pode ser destruída por lesões, mas isso não prova que era ilusória (Cap. 2)
+- Consciência chega "tarde", mas isso não implica determinismo
+- Vontade pode ser destruída por lesões, mas isso não prova que era ilusória
 
 Agora confrontamos talvez a evidência mais dramática de que biologia pode determinar comportamento: **manipulações químicas que criam, modificam ou abolem desejos e vontades**.
 
@@ -502,10 +502,10 @@ Similarmente:
 ### 6.5 O Próximo Passo: Lesões Físicas
 
 Até agora vimos:
-- Processos inconscientes (Cap. 1)
-- Lesões destruindo vontade (Cap. 2)
-- Química modulando flexibilidade (Cap. 3)
+- Processos inconscientes
+- Lesões destruindo vontade
+- Química modulando flexibilidade
 
-No próximo capítulo, examinaremos **lesões cerebrais físicas associadas a comportamento socialmente desviante** — casos em que patologia parece forçar ações que a pessoa consciente não endossa.
+Na Parte II, [*Casos Clínicos*](../casos/5.0-casos_clinicos.qmd), examinaremos **lesões cerebrais físicas associadas a comportamento socialmente desviante** — casos em que patologia parece forçar ações que a pessoa consciente não endossa.
 
 Charles Whitman, o atirador da Torre do Texas, tinha tumor cerebral. Pedofilia surgindo com tumor, desaparecendo com remoção cirúrgica. Estes casos nos forçam a confrontar: quando patologia determina comportamento, pessoa ainda é "responsável"?
