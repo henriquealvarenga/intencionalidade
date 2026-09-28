@@ -48,7 +48,7 @@ Este arquivo é lido automaticamente por agentes Claude que trabalham nesse repo
 - `theme-editorial.scss` — tema (defaults + rules)
 - `styles.css` — overrides pós-Quarto + `@font-face` self-hosted + variáveis CSS expostas
 - `index.qmd` — capa + Prefácio
-- `images/` — capa do livro (`cover.jpg` web, `cover.png` original)
+- `images/` — capa do livro (`cover.jpg` web, `cover.png` original) e `favicon.png` (recorte da capa)
 - `about.qmd` — créditos
 - `capitulos/1.*.qmd` — Parte I, Fundamentos (capítulos 1–10)
 - `casos/5.*.qmd` — Parte II, Casos Clínicos (5.0 abre a parte; capítulos 11–23)

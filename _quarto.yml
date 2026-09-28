@@ -39,7 +39,8 @@ book:
   # no Search Console.
   site-url: "https://henriquealvarenga.com/intencionalidade"
   site-path: "/intencionalidade"
-  favicon: favicon.ico
+  # Recorte da capa (curva dourada e ponto luminoso), 192×192 px.
+  favicon: images/favicon.png
   bread-crumbs: false
 
   # Navbar minimalista: só o título do livro + o ícone de busca.

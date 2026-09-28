@@ -23,7 +23,7 @@ Intencionalidade_Project/
 ├── casos/                       # Parte II — Casos Clínicos (5.0 abre a parte; capítulos 11–23)
 ├── apendices/                   # Apêndices A–D (10.1 a 10.4)
 │
-├── images/                      # Capa: cover.jpg (web) e cover.png (original em alta)
+├── images/                      # Capa (cover.jpg web, cover.png original) e favicon.png
 ├── fonts/                       # Fontes self-hosted (WOFF2): Playfair, Inter, JetBrains Mono
 ├── _includes/                   # Trechos injetados no <head> (JSON-LD do autor, ajuste do rodapé)
 ├── PDF_version/                 # Versão PDF antiga do conteúdo
